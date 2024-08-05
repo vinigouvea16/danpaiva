@@ -3,7 +3,6 @@ import * as React from 'react'
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { wrap } from 'popmotion'
-// import { images, titles, links } from './image-data'
 import Link from 'next/link'
 import { CaretLeft, CaretRight } from '@phosphor-icons/react'
 
@@ -28,22 +27,6 @@ const variants = {
   },
 }
 
-// const images = [
-//   '/images/wildlife.jpg',
-//   '/images/pantanal.jpg',
-//   '/images/africa.jpg',
-//   '/images/himalaya.jpg',
-// ]
-
-// const titles = ['WILDLIFE', 'PANTANAL', 'AFRICA', 'HIMALAYA']
-
-// const links = [
-//   '/projects/project-one',
-//   '/projects/project-two',
-//   '/projects/project-three',
-//   '/projects/project-four',
-// ]
-
 const swipeConfidenceThreshold = 10000
 const swipePower = (offset: number, velocity: number) => {
   return Math.abs(offset) * velocity
@@ -60,7 +43,7 @@ export const Example = () => {
 
   const desktopImages = [
     '/images/desktop/wildlife.jpg',
-    '/images/desktop/pantanal.jpg',
+    '/images/desktop/pantanalHome.jpg',
     '/images/desktop/africa.jpg',
     '/images/desktop/himalaya.jpg',
     '/images/desktop/india.jpg',
@@ -86,7 +69,6 @@ export const Example = () => {
 
     window.addEventListener('resize', handleResize)
 
-    // Initial check
     handleResize()
 
     return () => window.removeEventListener('resize', handleResize)
@@ -109,7 +91,7 @@ export const Example = () => {
           initial="enter"
           animate="center"
           exit="exit"
-          className="absolute w-screen h-screen object-cover"
+          className="absolute w-screen h-screen object-cover -z-10"
           transition={{
             x: { type: 'spring', stiffness: 300, damping: 30 },
             opacity: { duration: 0.2 },

@@ -19,6 +19,9 @@ const config: Config = {
       transform: {
         'scale-negative-1': 'scale(-1)',
       },
+      backdropBlur: {
+        '180px': '180px',
+      },
     },
   },
   plugins: [],

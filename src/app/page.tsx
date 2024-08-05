@@ -4,7 +4,7 @@ import Example from '@/components/example'
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen bg-slate-900 overflow-hidden p-0 m-0 flex justify-center items-center">
+    <div className="w-screen h-screen fixed overflow-hidden p-0 m-0 flex justify-center items-center">
       <Example />
       {/* <Example2 /> */}
     </div>
