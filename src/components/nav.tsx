@@ -9,7 +9,7 @@ export default function Nav() {
   }
 
   return (
-    <div className="bg-transparent fixed z-20 top-0 w-full flex justify-between items-center lg:px-16 lg:py-6 p-10 text-white lg:h-20">
+    <div className="bg-transparent uppercase z-10 top-0 w-full flex justify-between items-center lg:py-4 p-10 lg:p-0 lg:px-8 fixed text-white">
       {!isOpen && (
         <div className="lg:hidden">
           <button onClick={toggleMenu}>
@@ -25,7 +25,7 @@ export default function Nav() {
           </button>
         </div>
       )}
-      <div id="leftside" className=" gap-20 align-middle hidden lg:flex">
+      <div id="leftside" className="gap-4 align-middle hidden lg:flex">
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
       </div>

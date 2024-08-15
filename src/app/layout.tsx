@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 // eslint-disable-next-line camelcase, @typescript-eslint/no-unused-vars
 import { Inter, Nunito_Sans } from 'next/font/google'
 import './globals.css'
-import Nav from '@/components/nav'
 import localFont from 'next/font/local'
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -55,7 +54,6 @@ export default function RootLayout({
         // className={`${nunitoSans.className} flex flex-col bg-black text-white`}
         className={`${nunitoSans.className} bg-black text-white`}
       >
-        <Nav />
         {children}
       </body>
     </html>

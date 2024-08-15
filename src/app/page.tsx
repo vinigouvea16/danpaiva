@@ -1,12 +1,9 @@
-import Example from '@/components/example'
-// import Example2 from '@/components/example2'
-// import { images, titles, links } from '../components/image-data'
+import HomePage from '@/components/homepage'
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen fixed overflow-hidden p-0 m-0 flex justify-center items-center">
-      <Example />
-      {/* <Example2 /> */}
+    <div className="w-dvw h-dvh overflow-hidden p-0 m-0">
+      <HomePage />
     </div>
   )
 }
