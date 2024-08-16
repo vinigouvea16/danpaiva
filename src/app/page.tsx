@@ -1,9 +1,11 @@
-import HomePage from '@/components/homepage'
+// import HomePage from '@/components/homepage'
+import TestPage from './testpage/page'
 
 export default function Home() {
   return (
-    <div className="w-dvw h-dvh overflow-hidden p-0 m-0">
-      <HomePage />
+    <div className="p-0 m-0">
+      {/* <HomePage /> */}
+      <TestPage />
     </div>
   )
 }

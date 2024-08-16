@@ -9,11 +9,13 @@ import imageE from '../../../../public/images/desktop/wildlife.jpg'
 import Button from '@/components/button'
 import Footer from '@/components/footer'
 import Nav from '@/components/nav'
+import NavB from '@/components/navb'
 
 export default function Pantanal() {
   return (
     <div>
       <Nav />
+      <NavB />
       {/* <div className="flex flex-col h-screen bg-[url('/images/desktop/pantanalHome.jpg')] bg-no-repeat bg-cover overflow-hidden"> */}
       <div className="flex flex-col h-dvh items-start justify-between">
         <Image

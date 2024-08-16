@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function HomePage() {
+export default function DesktopHome() {
   return (
     <div className="lg:flex lg:flex-row flex-col h-screen hidden">
       <Link href="/about" className="flex-1 relative group">

@@ -1,11 +1,14 @@
+'use client'
 import Nav from '@/components/nav'
+import NavB from '@/components/navb'
 import Image from 'next/image'
 import Link from 'next/link'
 export default function Portfolio() {
   return (
     <>
       <Nav />
-      <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-2 h-screen">
+      <NavB />
+      <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-4 h-screen">
         <Link
           href="/projects/pantanal"
           className="relative group flex items-center justify-center bg-gray-800"

@@ -5,11 +5,13 @@ import fotopaiva from '../../../public/images/desktop/image1.png'
 import Nav from '@/components/nav'
 import Button from '@/components/button'
 import Footer from '@/components/footer'
+import NavB from '@/components/navb'
 
 export default function About() {
   return (
     <>
       <Nav />
+      <NavB />
       <div className="flex flex-col h-dvh bg-[url('/images/desktop/SNY06578.jpg')] bg-no-repeat bg-cover overflow-hidden">
         {/* <div className="flex flex-col h-dvh items-start justify-between">
         <Image
