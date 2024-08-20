@@ -13,7 +13,7 @@ export default function DesktopHome() {
           width={960}
           className="object-cover h-lvh"
           alt="bird picture"
-          unoptimized={true}
+          // unoptimized={true}
           priority
         />
         <div className="absolute z-10 inset-0 flex opacity-60 flex-col top-[10%]  bottom-[10%] lg:justify-between items-center group-hover:opacity-100 group-hover:text-amber-500">
@@ -36,7 +36,7 @@ export default function DesktopHome() {
           width={960}
           className="object-cover h-lvh"
           alt="monkey picture"
-          unoptimized={true}
+          // unoptimized={true}
           priority
         />
         <div className="absolute z-10 inset-0 uppercase flex flex-col top-[10%]  bottom-[10%] lg:justify-between items-center opacity-60 font-extrabold group-hover:opacity-100 group-hover:text-amber-500">

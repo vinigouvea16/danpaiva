@@ -35,7 +35,7 @@ export default function MobileHome() {
           fill
           className="object-cover"
           alt="bird picture"
-          unoptimized={true}
+          // unoptimized={true}
         />
         <div className="absolute z-10 inset-0 flex flex-col top-[10%] bottom-[10%] justify-between items-center opacity-60 font-extrabold text-white group-hover:opacity-100 group-hover:text-amber-500">
           <div className="relative">
@@ -59,7 +59,7 @@ export default function MobileHome() {
           fill
           className="object-cover"
           alt="monkey picture"
-          unoptimized={true}
+          // unoptimized={true}
         />
         <div className="absolute z-10 inset-0 flex flex-col top-[10%] bottom-[10%] justify-between items-center opacity-60 font-extrabold text-white group-hover:opacity-100 group-hover:text-amber-500">
           <h3 className=" text-5xl font-extrabold uppercase tracking-[0.25em] bg-black bg-opacity-0">

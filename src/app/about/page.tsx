@@ -48,13 +48,13 @@ export default function About() {
       </div>
 
       <div id="story" className="lg:h-dvh w-full">
-        <div className="flex lg:px-36 py-24 px-10 gap-12 lg:gap-0 justify-between lg:flex-row flex-col ">
+        <div className="flex lg:px-32 py-24 px-8 gap-12 lg:gap-0 justify-between items-center lg:flex-row flex-col ">
           <div
             id="left-side"
             className="lg:w-1/2 gap-8 flex flex-col items-center lg:text-start text-center"
           >
             <span className="text-4xl font-light">My Story</span>
-            <p className="lg:text-xl font-light lg:leading-10 ">
+            <p className="lg:text-lg font-light lg:leading-9 ">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id minus
               laudantium quos. Dolore laudantium sapiente doloremque beatae ad
               numquam id in, officia praesentium esse dolor alias deleniti
