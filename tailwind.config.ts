@@ -24,6 +24,9 @@ const config: Config = {
       backdropBlur: {
         '180px': '180px',
       },
+      fontSize: {
+        'clamp-8xl': 'clamp(2rem, 4vw + 1rem, 5rem)',
+      },
     },
   },
   plugins: [],

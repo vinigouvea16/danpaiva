@@ -18,7 +18,7 @@ export default function Portfolio() {
             fill
             className="object-cover transform group-hover:brightness-75"
             alt="Project 1"
-            unoptimized={true}
+            // unoptimized={true}
           />
           <h3 className="absolute bottom-[20%] lg:right-[5%] text-white opacity-60 text-4xl font-bold uppercase tracking-[10px] group-hover:text-amber-500 group-hover:opacity-100 transition-colors">
             pantanal
@@ -33,7 +33,7 @@ export default function Portfolio() {
             fill
             className="object-cover group-hover:brightness-75"
             alt="Project 2"
-            unoptimized={true}
+            // unoptimized={true}
           />
           <h3 className="absolute bottom-[20%] lg:right-[5%] text-white opacity-60 text-4xl font-bold uppercase tracking-[10px] group-hover:text-amber-500 group-hover:opacity-100 transition-colors">
             himalaya
@@ -48,7 +48,7 @@ export default function Portfolio() {
             fill
             className="object-cover group-hover:brightness-75"
             alt="Project 3"
-            unoptimized={true}
+            // unoptimized={true}
           />
           <h3 className="absolute bottom-[20%] lg:right-[5%] text-white opacity-60 text-4xl font-bold uppercase tracking-[10px] group-hover:text-amber-500 group-hover:opacity-100 transition-colors">
             india
@@ -63,7 +63,7 @@ export default function Portfolio() {
             fill
             className="object-cover group-hover:brightness-75"
             alt="Project 4"
-            unoptimized={true}
+            // unoptimized={true}
           />
           <h3 className="absolute bottom-[20%] lg:right-[5%] text-white opacity-60 text-4xl font-bold uppercase tracking-[10px] group-hover:text-amber-500 group-hover:opacity-100 transition-colors">
             africa

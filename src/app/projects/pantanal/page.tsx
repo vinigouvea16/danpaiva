@@ -17,14 +17,15 @@ export default function Pantanal() {
       <Nav />
       <NavB />
       {/* <div className="flex flex-col h-screen bg-[url('/images/desktop/pantanalHome.jpg')] bg-no-repeat bg-cover overflow-hidden"> */}
-      <div className="flex flex-col h-dvh items-start justify-between">
+      <div className="flex flex-col h-dvh items-start justify-between overflow-x-hidden">
         <Image
           src="/images/desktop/pantanalHome.jpg"
           alt={'a picture of a cheetah'}
           className="absolute w-screen h-screen object-cover -z-10  "
-          layout="fill"
-          quality={100}
-          unoptimized={true}
+          height={1080}
+          width={1920}
+          // layout="fill"
+          // unoptimized={true}
           // objectFit="cover"
         />
         <div
@@ -90,7 +91,7 @@ export default function Pantanal() {
               src={imageA}
               alt="Image A"
               className="w-full h-full object-cover"
-              unoptimized={true}
+              // unoptimized={true}
             />
           </div>
           <div className="w-full">
@@ -98,7 +99,7 @@ export default function Pantanal() {
               src={imageB}
               alt="Image B"
               className="w-full object-cover"
-              unoptimized={true}
+              // unoptimized={true}
             />
           </div>
 
@@ -108,7 +109,7 @@ export default function Pantanal() {
               src={imageC}
               alt="Image C"
               className="w-full h-full object-cover"
-              unoptimized={true}
+              // unoptimized={true}
             />
           </div>
 
@@ -118,7 +119,7 @@ export default function Pantanal() {
               src={imageD}
               alt="Image D"
               className="w-full h-full object-cover"
-              unoptimized={true}
+              // unoptimized={true}
             />
           </div>
           <div className="w-full h-full">
@@ -126,7 +127,7 @@ export default function Pantanal() {
               src={imageE}
               alt="Image E"
               className="w-full h-full object-cover"
-              unoptimized={true}
+              // unoptimized={true}
             />
           </div>
         </div>

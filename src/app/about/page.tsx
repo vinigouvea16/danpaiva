@@ -12,16 +12,16 @@ export default function About() {
     <>
       <Nav />
       <NavB />
-      <div className="flex flex-col h-dvh bg-[url('/images/desktop/SNY06578.jpg')] bg-no-repeat bg-cover overflow-hidden">
-        {/* <div className="flex flex-col h-dvh items-start justify-between">
+      {/* <div className="flex flex-col h-dvh bg-[url('/images/desktop/SNY06578.jpg')] bg-no-repeat bg-cover overflow-hidden"> */}
+      <div className="flex flex-col h-dvh items-start justify-between">
         <Image
           src="/images/desktop/SNY06578.jpg"
           height={1080}
           width={1920}
           alt={'a picture of a bird'}
-          unoptimized={true}
-          className="object-fit h-screen"
-        /> */}
+          // unoptimized={true}
+          className="absolute w-screen h-screen object-cover"
+        />
         <div
           id="text-hero"
           className="absolute flex flex-col left-[10%] lg:top-1/3 top-1/4"
@@ -48,7 +48,7 @@ export default function About() {
       </div>
 
       <div id="story" className="lg:h-dvh w-full">
-        <div className="flex lg:px-36 py-24 px-10 gap-12 lg:gap-0 justify-between lg:flex-row flex-col">
+        <div className="flex lg:px-36 py-24 px-10 gap-12 lg:gap-0 justify-between lg:flex-row flex-col ">
           <div
             id="left-side"
             className="lg:w-1/2 gap-8 flex flex-col items-center lg:text-start text-center"
@@ -80,7 +80,7 @@ export default function About() {
 
       <div
         id="pre-footer"
-        className="w-full h-32 bg-[#9FBE77] text-black uppercase hidden lg:flex justify-center gap-11 align-middle items-center text-8xl mb-20"
+        className="w-full h-32 bg-[#9FBE77] text-black uppercase hidden lg:flex justify-evenly align-middle items-center text-clamp-8xl mb-20"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
