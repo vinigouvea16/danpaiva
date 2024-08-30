@@ -10,7 +10,7 @@ export const variants = {
       type: 'spring',
       stiffness: 300,
       damping: 30,
-      duration: 3,
+      duration: 0.3,
     },
   },
   exit: (direction: number) => ({
@@ -20,7 +20,7 @@ export const variants = {
       type: 'spring',
       stiffness: 300,
       damping: 30,
-      duration: 3,
+      duration: 0.3,
     },
   }),
 }
