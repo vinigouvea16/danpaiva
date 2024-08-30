@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -13,12 +13,12 @@ export default function DesktopHome() {
           width={960}
           className="object-cover h-lvh"
           alt="bird picture"
-          // unoptimized={true}
+          unoptimized={true}
           priority
         />
         <div className="absolute z-10 inset-0 flex opacity-60 flex-col top-[10%]  bottom-[10%] lg:justify-between items-center group-hover:opacity-100 group-hover:text-amber-500">
           <div className="relative">
-            <span>Daniel Ribeiro&apos;s take on the</span>
+            <span>Dann Paiva&apos;s take on the</span>
             <h1 className="lg:text-clamp-8xl text-5xl font-extrabold uppercase tracking-[0.25em] bg-black bg-opacity-0">
               wildlife
             </h1>
@@ -36,7 +36,7 @@ export default function DesktopHome() {
           width={960}
           className="object-cover h-lvh"
           alt="monkey picture"
-          // unoptimized={true}
+          unoptimized={true}
           priority
         />
         <div className="absolute z-10 inset-0 uppercase flex flex-col top-[10%]  bottom-[10%] lg:justify-between items-center opacity-60 font-extrabold group-hover:opacity-100 group-hover:text-amber-500">

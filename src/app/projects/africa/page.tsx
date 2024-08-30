@@ -3,12 +3,12 @@ import Button from '@/components/button'
 import Footer from '@/components/footer'
 import Nav from '@/components/nav'
 import NavB from '@/components/navb'
-import PantanalClient from './PantanalClient'
 import { getImagesFromCloudinary } from '@/utils/getImagesFromCloudinary'
 import { Suspense } from 'react'
+import AfricaClient from './AfricaClient'
 
-export default async function Pantanal() {
-  const images = await getImagesFromCloudinary('pantanal')
+export default async function Africa() {
+  const images = await getImagesFromCloudinary('africa')
   // console.log('Images: ', images)
 
   return (
@@ -18,7 +18,7 @@ export default async function Pantanal() {
       {/* <div className="flex flex-col h-screen bg-[url('/images/desktop/pantanalHome.jpg')] bg-no-repeat bg-cover overflow-hidden"> */}
       <div className="flex flex-col h-dvh items-start justify-between overflow-x-hidden">
         <Image
-          src="/images/desktop/pantanalHome.jpg"
+          src="/images/desktop/africa.jpg"
           alt={'a picture of a cheetah'}
           className="absolute w-screen h-screen object-cover -z-10  "
           height={1080}
@@ -32,11 +32,13 @@ export default async function Pantanal() {
           className="relative flex flex-col lg:left-[5%] lg:top-1/2 h-full lg:h-auto lg:items-start items-center lg:justify-normal justify-evenly lg:px-0 px-2 gap-80 lg:gap-0"
         >
           <h1 className="lg:text-8xl text-5xl font-extrabold  uppercase tracking-[0.20em]">
-            PANTANAL
+            AFRICA
           </h1>
           <p className="text-xl lg:w-1/2 lg:pl-1 text-center lg:text-start">
-            My saddest take on wildlife - Brazil&apos;s richest flora and fauna
-            burnt to ashes as the animals struggle to survive mid wildfire chaos
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cum
+            voluptas recusandae tempora quidem corrupti voluptatibus eum? Cumque
+            accusamus tempore nostrum. Quam facilis eveniet voluptatum, sunt
+            quod soluta cupiditate fugiat?
           </p>
         </div>
         <div className="bottom-8 relative flex left-1/2">
@@ -54,30 +56,36 @@ export default async function Pantanal() {
       <div id="story" className="bg-black w-full h-auto">
         <div className="flex xl:px-36 py-24 px-2 gap-5 ">
           <div className="gap-8 flex flex-col items-center text-center ">
-            <span className="xl:text-6xl text-4xl font-extrabold  ">
-              The Harsh Reality of Wildfires in the Pantanal
+            <span className="xl:text-6xl text-4xl font-extrabold ">
+              About the Project
             </span>
             <p className="xl:text-xl font-light">
-              Amidst the vastness of the Pantanal, one of the most biodiverse
-              regions in the world, fire spreads relentlessly. In recent years,
-              wildfires have devastated this unique ecosystem, turning its lush
-              flora and fauna into ashes. This region, home to iconic species
-              such as the jaguar, the jabiru stork, and countless others, faces
-              an unprecedented threat.
-              <br /> Often sparked by human activities, these wildfires cause
-              irreparable destruction, leading to the death of thousands of
-              animals and the loss of essential habitats. In a landscape where
-              life struggles to survive amidst the chaos, the images captured
-              here stand as a testament to the devastating impact of these
-              fires. They remind us of the urgency to protect the Pantanal
-              before it&apos;s too late.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id minus
+              laudantium quos. Dolore laudantium sapiente doloremque beatae ad
+              numquam id in, officia praesentium esse dolor alias deleniti
+              incidunt, ut consequuntur! Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Dolore, inventore commodi praesentium pariatur
+              molestiae harum dolorem dolores, perspiciatis a et recusandae
+              iusto expedita voluptatibus temporibus itaque earum, ducimus iure
+              tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dolor sunt enim cum ullam ratione, inventore quos explicabo odio
+              reprehenderit quas eaque libero maxime quisquam sint neque
+              deleniti. Accusantium, molestias eius? Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Ab alias, ad beatae sit, amet,
+              incidunt tempore voluptas necessitatibus quasi veritatis similique
+              maxime inventore mollitia quibusdam obcaecati perspiciatis unde
+              rerum repellat! Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Architecto quaerat consequuntur enim error cupiditate
+              accusantium laudantium, dolores aut. Consectetur accusantium fuga
+              deleniti et illo earum unde quas laudantium repudiandae
+              necessitatibus.
             </p>
           </div>
         </div>
       </div>
 
       <Suspense fallback={<div>Loading...</div>}>
-        <PantanalClient images={images} />
+        <AfricaClient images={images} />
       </Suspense>
 
       <Button href="/portfolio" label="next project" />

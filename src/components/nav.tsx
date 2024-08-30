@@ -56,21 +56,21 @@ export default function Nav() {
               <nav className="flex flex-col gap-4 text-3xl w-full">
                 <a
                   href="/"
-                  className="border-b border-white"
+                  className="border-b pb-4 border-white"
                   onClick={toggleMenu}
                 >
                   home
                 </a>
                 <a
                   href="/about"
-                  className="border-b border-white"
+                  className="border-b pb-4 border-white"
                   onClick={toggleMenu}
                 >
                   about
                 </a>
                 <a
                   href="/portfolio"
-                  className="border-b border-white"
+                  className="border-b pb-4 border-white"
                   onClick={toggleMenu}
                 >
                   portfolio

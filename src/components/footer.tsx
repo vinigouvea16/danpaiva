@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="gap-8 flex flex-col">
         <h2 className="uppercase lg:text-8xl text-6xl font-bold">reach me</h2>
         <p className="uppercase text-xl opacity-60 font-normal pl-1 ">
-          I wold love to hear from you
+          I would love to hear from you
           <br /> Let&apos;s work together
         </p>
       </div>

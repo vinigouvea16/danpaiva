@@ -13,7 +13,10 @@ export default function About() {
       <Nav />
       <NavB />
       {/* <div className="flex flex-col h-dvh bg-[url('/images/desktop/SNY06578.jpg')] bg-no-repeat bg-cover overflow-hidden"> */}
-      <div className="flex flex-col h-dvh items-start justify-between">
+      <div
+        id="hero"
+        className="flex flex-col h-dvh items-start justify-between"
+      >
         <Image
           src="/images/desktop/SNY06578.jpg"
           height={1080}
@@ -26,14 +29,19 @@ export default function About() {
           id="text-hero"
           className="absolute flex flex-col left-[10%] lg:top-1/3 top-1/4"
         >
-          <h1 className="text-6xl font-extrabold">Hello, I&apos;m Daniel</h1>
-          <p className="lg:text-3xl text-2xl w-80">
-            A passionate admirer of the wildlife, eager to capture nature&apos;s
-            best moments
+          <h1 className="text-6xl font-extrabold">
+            Hello, <br /> I&apos;m Dann Paiva
+          </h1>
+          <p className="lg:text-3xl text-2xl w-2/3">
+            a photographer who left the fashion world to pursue my true passion:
+            <br />
+            <span className="uppercase text-3xl font-extrabold tracking-widest text-amber-500">
+              wildlife
+            </span>
           </p>
         </div>
         <div className="bottom-20 absolute flex left-1/2">
-          <a href="#story">
+          <a href="#myStory">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -47,25 +55,32 @@ export default function About() {
         </div>
       </div>
 
-      <div id="story" className="lg:h-dvh w-full">
-        <div className="flex lg:px-32 py-24 px-8 gap-12 lg:gap-0 justify-between items-center lg:flex-row flex-col ">
+      <div id="myStory" className="xl:h-dvh w-full">
+        <div className="flex xl:px-32 py-24 px-2 gap-12 xl:gap-0 justify-between items-center xl:flex-row flex-col ">
           <div
             id="left-side"
-            className="lg:w-1/2 gap-8 flex flex-col items-center lg:text-start text-center"
+            className="xl:w-1/2 gap-8 flex flex-col items-center xl:text-start text-center"
           >
-            <span className="text-4xl font-light">My Story</span>
-            <p className="lg:text-lg font-light lg:leading-9 ">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id minus
-              laudantium quos. Dolore laudantium sapiente doloremque beatae ad
-              numquam id in, officia praesentium esse dolor alias deleniti
-              incidunt, ut consequuntur! Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Dolore, inventore commodi praesentium pariatur
-              molestiae harum dolorem dolores, perspiciatis a et recusandae
-              iusto expedita voluptatibus temporibus itaque earum, ducimus iure
-              tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dolor sunt enim cum ullam ratione, inventore quos explicabo odio
-              reprehenderit quas eaque libero maxime quisquam sint neque
-              deleniti. Accusantium, molestias eius?
+            <span className="text-4xl font-light ">My Story</span>
+            <p
+              className="xl:text-lg font-light xl:leading-8 text-justify first-line:uppercase first-line:tracking-widest
+  first-letter:text-7xl first-letter:font-bold first-letter:text-white
+  first-letter:mr-3 first-letter:float-left"
+            >
+              I have always been passionate about illustrated art, and I hold a
+              degree in Cinema from Savannah College of Art and Design in
+              Georgia. After working in the fashion industry for a few years, I
+              decided to follow my true calling: showcasing nature&apos;s raw
+              beauty. Since then, I have been documenting the most incredible
+              animals around the globe. It has been an honor to capture and
+              share these extraordinary moments in the wilderness.
+              <br />
+              <br />
+              As a Brazilian, my primary focus has been on the jaguars of the
+              Pantanal. After experiencing the thrill of capturing these
+              majestic animals in their natural habitat, I decided to become a
+              certified guide, specializing in photographic safaris and private
+              tours.
             </p>
           </div>
           <div id="right-side" className="lg:p-8">
@@ -79,7 +94,7 @@ export default function About() {
       </div>
 
       <div
-        id="pre-footer"
+        id="banner"
         className="w-full h-32 bg-[#9FBE77] text-black uppercase hidden lg:flex justify-evenly align-middle items-center text-clamp-8xl mb-20"
       >
         <svg
