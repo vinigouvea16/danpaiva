@@ -16,7 +16,7 @@ export default async function Pantanal() {
       <Nav />
       <NavB />
       {/* <div className="flex flex-col h-screen bg-[url('/images/desktop/pantanalHome.jpg')] bg-no-repeat bg-cover overflow-hidden"> */}
-      <div className="flex flex-col h-dvh items-start justify-between overflow-x-hidden">
+      <div className="flex flex-col h-svh items-start justify-between overflow-x-hidden">
         <Image
           src="/images/desktop/pantanalHome.jpg"
           alt={'a picture of a cheetah'}

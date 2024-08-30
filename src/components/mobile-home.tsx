@@ -25,7 +25,7 @@ export default function MobileHome() {
   )
 
   return (
-    <div className="relative h-screen overflow-hidden flex flex-col lg:hidden">
+    <div className="relative h-svh overflow-hidden flex flex-col lg:hidden">
       <div
         className={`relative transition-all duration-500 ease-in-out ${openSection === 1 ? 'h-[70%] lg:h-auto lg:w-1/2' : 'h-[30%] lg:h-full lg:w-1/2'}`}
         onClick={() => handleSectionClick(1, '/about')}
