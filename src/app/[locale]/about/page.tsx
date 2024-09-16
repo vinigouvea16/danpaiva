@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import Nav from '@/components/Nav'
-import Button from '@/components/Button'
-import Footer from '@/components/Footer'
-import NavB from '@/components/NavB'
+import Nav from '../../../components/Nav'
+import Button from '../../../components/Button'
+import Footer from '../../../components/Footer'
+import NavB from '../../../components/NavB'
 import { useTranslations } from 'next-intl'
 // eslint-disable-next-line camelcase
 import { unstable_setRequestLocale } from 'next-intl/server'
