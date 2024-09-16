@@ -1,12 +1,14 @@
+import { useTranslations } from 'next-intl'
 import React from 'react'
 
 interface ButtonProps {
   href: string
   label: string
-  className?: string // Optional className prop
+  className?: string
 }
 
 export default function Button({ href, label, className }: ButtonProps) {
+  const t = useTranslations('Button')
   return (
     <div
       className={`flex justify-center align-middle mb-20 ${className || ''}`}
@@ -21,7 +23,7 @@ export default function Button({ href, label, className }: ButtonProps) {
         >
           <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,109.66-32,32a8,8,0,0,1-11.32-11.32L148.69,136H88a8,8,0,0,1,0-16h60.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,173.66,133.66Z"></path>
         </svg>
-        <a href={href}>{label}</a>
+        <a href={href}>{t(label)}</a>
       </div>
     </div>
   )

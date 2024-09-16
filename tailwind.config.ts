@@ -26,6 +26,8 @@ const config: Config = {
       },
       fontSize: {
         'clamp-8xl': 'clamp(2rem, 4vw + 1rem, 5rem)',
+        'clamp-7xl': 'clamp(1.75rem, 3.5vw + 0.875rem, 4.5rem)',
+        'clamp-6xl': 'clamp(1.5rem, 3vw + 0.6rem, 4rem)',
       },
     },
   },

@@ -1,12 +1,16 @@
-'use client'
+/* eslint-disable camelcase */
+import { redirect } from 'next/navigation'
+import { unstable_setRequestLocale } from 'next-intl/server'
 
-// import HomePage from '@/components/homepage'
-import TestPage from './testpage/page'
-export default function Home() {
-  return (
-    <div className="p-0 m-0">
-      {/* <HomePage /> */}
-      <TestPage />
-    </div>
-  )
+export const dynamic = 'force-dynamic' // Force dynamic rendering
+
+type Props = {
+  params: { locale: string }
+}
+
+export default function RootPage({ params: { locale } }: Props) {
+  unstable_setRequestLocale(locale)
+  redirect('/pt-BR')
+
+  // return null
 }

@@ -11,7 +11,7 @@ export default function NavB() {
   }
 
   return (
-    <div className="absolute top-[5px] left-1/2 hidden lg:flex transform -translate-x-1/2 z-10 group">
+    <nav className="absolute top-[5px] left-1/2 hidden lg:flex transform -translate-x-1/2 z-10 group">
       <button
         onClick={toggleMenu}
         className={`bg-gray-200 opacity-60 hover:opacity-100 text-black px-5 py-5 hover:pb-1 rounded-3xl shadow-2xl transition-colors w-auto ${
@@ -52,6 +52,6 @@ export default function NavB() {
           </div>
         )}
       </button>
-    </div>
+    </nav>
   )
 }

@@ -35,7 +35,6 @@ export default function Modal({ images, currentImage, onClose }: ModalProps) {
     if (newVal >= 0 && newVal < images.length) {
       setDirection(newVal > curIndex ? 1 : -1)
       setCurIndex(newVal)
-      // router.replace(`/projects/pantanal/p/${newVal}`)
       router.replace(`/projects/pantanal/p/${images[newVal].id}`)
     }
   }
@@ -67,7 +66,6 @@ export default function Modal({ images, currentImage, onClose }: ModalProps) {
         className="fixed inset-0 z-30 bg-black/70 backdrop-blur-2xl"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        // exit={{ opacity: 0 }}
         transition={{ duration: 0.8, ease: 'easeInOut' }}
       />
       <SharedModal
@@ -77,7 +75,6 @@ export default function Modal({ images, currentImage, onClose }: ModalProps) {
         changePhotoId={changePhotoId}
         closeModal={closeModal}
         navigation={true}
-        // transition={{ duration: 0.5, ease: 'easeInOut' }}
       />
     </Dialog>
   )

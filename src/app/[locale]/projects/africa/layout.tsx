@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 
-export default function PantanalLayout({
+export default function AfricaLayout({
   children,
   modal,
 }: {

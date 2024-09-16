@@ -1,6 +1,5 @@
-// 'use client'
-import Nav from '@/components/nav'
-import NavB from '@/components/navb'
+import Nav from '@/components/Nav'
+import NavB from '@/components/NavB'
 import Image from 'next/image'
 import Link from 'next/link'
 export default function Portfolio() {
@@ -12,7 +11,6 @@ export default function Portfolio() {
         <Link
           href="/projects/pantanal"
           className="relative group flex items-center justify-center bg-gray-800"
-          // scroll={false}
         >
           <Image
             src="/images/desktop/pantanalHome.jpg"

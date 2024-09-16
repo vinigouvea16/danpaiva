@@ -1,0 +1,53 @@
+{
+  "DesktopHome": {
+    "span": "A visão de Daniel Paiva sobre a",
+    "h1": "Vida Selvagem",
+    "h2": "tour fotográfico",
+    "h3": "portfólio",
+    "h4": "expedições"
+  },
+  "AboutPage": {
+    "h1": {
+      "part1": "Olá,",
+      "part2": "Eu sou Daniel Paiva"
+    },
+    "hero-p": "um fotógrafo que deixou o mundo da moda para seguir minha verdadeira paixão:",
+    "hero-span": "a vida selvagem",
+    "myStory-span": "Minha História",
+    "myStory-p1": "Eu sempre fui apaixonado por arte ilustrada e sou formado em Cinema pela Savannah College of Art and Design, na Geórgia. Depois de trabalhar na indústria da moda por alguns anos, decidi seguir minha verdadeira vocação: mostrar a beleza bruta da natureza. Desde então, venho documentando os animais mais incríveis ao redor do mundo. Tem sido uma honra capturar e compartilhar esses momentos extraordinários na vida selvagem.",
+    "myStory-p2": "Como brasileiro, meu foco principal tem sido as onças do Pantanal. Depois de experimentar a emoção de capturar esses animais majestosos em seu habitat natural, decidi me tornar um guia certificado, especializado em safáris fotográficos e tours privados.",
+    "banner-span": "confira meu portfolio",
+    "button": "confira meu portfolio"
+  },
+  "Button": {
+    "about": "confira meu portfolio",
+    "projects": "proximo projeto"
+  },
+  "Footer": {
+    "p": {
+      "part1": "Vou adorar saber de você",
+      "part2": "Vamos trabalhar juntos"
+    },
+    "h4": "Me contate"
+  },
+  "Pantanal": {
+   "hero-p": "Meu take mais triste sobre a vida selvagem - a flora e a fauna mais ricas do Brasil reduzidas a cinzas enquanto os animais lutam para sobreviver em meio ao caos dos incêndios florestais",
+    "story-p": {
+    "part1": "Em meio à vastidão do Pantanal, um dos biomas mais ricos e biodiversos do mundo, o fogo se espalha de forma implacável. Nos últimos anos, as queimadas têm devastado essa região única, transformando a exuberante flora e fauna em cinzas. Esse ecossistema, que abriga espécies icônicas como a onça-pintada, o tuiuiú, e inúmeras outras, enfrenta uma ameaça sem precedentes.",
+    "part2": "As queimadas, muitas vezes provocadas por atividades humanas, causam uma destruição irreparável, levando à morte de milhares de animais e à perda de habitats essenciais. Em um cenário onde a vida luta para sobreviver em meio ao caos, as imagens capturadas aqui são um testemunho do impacto devastador dessas chamas. Elas nos lembram da urgência de proteger o Pantanal, antes que seja tarde demais."
+   },
+   "story-span": "A Triste Realidade das Queimadas no Pantanal"
+  },
+  "Africa": {
+   "hero-p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cum voluptas recusandae tempora quidem corrupti voluptatibus eum? Cumque accusamus tempore nostrum. Quam facilis eveniet voluptatum, sunt quod soluta cupiditate fugiat?",
+   "story-p": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cum voluptas recusandae tempora quidem corrupti voluptatibus eum? Cumque accusamus tempore nostrum. Quam facilis eveniet voluptatum, sunt quod soluta cupiditate fugiat?",
+   "story-span": "Sobre o projeto"
+  },
+  "LocaleSwitcherHeader": {
+    "span": "Idioma"
+  },
+  "LocaleSwitcher": {
+    "label": "Mudar Idioma",
+    "locale": "{locale, select, de {🇩🇪 Português} en {🇺🇸 English} other {Unknown}}"
+  }
+}

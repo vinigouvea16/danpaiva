@@ -1,18 +1,24 @@
 import Image from 'next/image'
 import React from 'react'
-// import heroImage from '../../../public/images/desktop/SNY06578.jpg'
-import fotopaiva from '../../../public/images/desktop/image1.png'
-import Nav from '@/components/nav'
-import Button from '@/components/button'
-import Footer from '@/components/footer'
-import NavB from '@/components/navb'
+import Nav from '@/components/Nav'
+import Button from '@/components/Button'
+import Footer from '@/components/Footer'
+import NavB from '@/components/NavB'
+import { useTranslations } from 'next-intl'
+// eslint-disable-next-line camelcase
+import { unstable_setRequestLocale } from 'next-intl/server'
 
-export default function About() {
+type Props = {
+  params: { locale: string }
+}
+
+export default function About({ params: { locale } }: Props) {
+  unstable_setRequestLocale(locale)
+  const t = useTranslations('AboutPage')
   return (
     <>
       <Nav />
       <NavB />
-      {/* <div className="flex flex-col h-dvh bg-[url('/images/desktop/SNY06578.jpg')] bg-no-repeat bg-cover overflow-hidden"> */}
       <div
         id="hero"
         className="flex flex-col h-dvh items-start justify-between"
@@ -22,7 +28,6 @@ export default function About() {
           height={1080}
           width={1920}
           alt={'a picture of a bird'}
-          // unoptimized={true}
           className="absolute w-screen h-screen object-cover"
         />
         <div
@@ -30,15 +35,12 @@ export default function About() {
           className="absolute flex flex-col left-[10%] lg:top-1/3 top-1/4"
         >
           <h1 className="text-6xl font-extrabold">
-            Hello, <br /> I&apos;m Dann Paiva
+            {t('h1.part1')} <br /> {t('h1.part2')}
           </h1>
-          <p className="lg:text-3xl text-2xl w-2/3">
-            a photographer who left the fashion world to pursue my true passion:
-            <br />
-            <span className="uppercase text-3xl font-extrabold tracking-widest text-amber-500">
-              wildlife
-            </span>
-          </p>
+          <p className="lg:text-3xl text-2xl w-2/3">{t('hero-p')}</p>
+          <span className="uppercase text-3xl font-extrabold tracking-widest text-amber-500">
+            {t('hero-span')}
+          </span>
         </div>
         <div className="bottom-20 absolute flex left-1/2">
           <a href="#myStory">
@@ -61,31 +63,23 @@ export default function About() {
             id="left-side"
             className="xl:w-1/2 gap-8 flex flex-col items-center xl:text-start text-center"
           >
-            <span className="text-4xl font-light ">My Story</span>
+            <span className="text-4xl font-light ">{t('myStory-span')}</span>
             <p
               className="xl:text-lg font-light xl:leading-8 text-justify first-line:uppercase first-line:tracking-widest
   first-letter:text-7xl first-letter:font-bold first-letter:text-white
   first-letter:mr-3 first-letter:float-left"
             >
-              I have always been passionate about illustrated art, and I hold a
-              degree in Cinema from Savannah College of Art and Design in
-              Georgia. After working in the fashion industry for a few years, I
-              decided to follow my true calling: showcasing nature&apos;s raw
-              beauty. Since then, I have been documenting the most incredible
-              animals around the globe. It has been an honor to capture and
-              share these extraordinary moments in the wilderness.
-              <br />
-              <br />
-              As a Brazilian, my primary focus has been on the jaguars of the
-              Pantanal. After experiencing the thrill of capturing these
-              majestic animals in their natural habitat, I decided to become a
-              certified guide, specializing in photographic safaris and private
-              tours.
+              {t('myStory-p1')}
+            </p>
+            <p className="xl:text-lg font-light xl:leading-8 text-justify">
+              {t('myStory-p2')}
             </p>
           </div>
           <div id="right-side" className="lg:p-8">
             <Image
-              src={fotopaiva}
+              src="/images/desktop/image1.png"
+              width={500}
+              height={500}
               alt={'photo of the photographer'}
               className="lg:rounded-none rounded-[4em]"
             />
@@ -95,7 +89,7 @@ export default function About() {
 
       <div
         id="banner"
-        className="w-full h-32 bg-[#9FBE77] text-black uppercase hidden lg:flex justify-evenly align-middle items-center text-clamp-8xl mb-20"
+        className="w-full h-32 bg-[#9FBE77] text-black uppercase hidden lg:flex justify-evenly align-middle items-center text-clamp-7xl mb-20"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +104,7 @@ export default function About() {
           href="/portfolio"
           className="no-underline font-extrabold tracking-widest "
         >
-          <span className="">CHECK MY PORTFOLIO</span>
+          <span className="uppercase">{t('banner-span')}</span>
         </a>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -123,11 +117,7 @@ export default function About() {
         </svg>
       </div>
 
-      <Button
-        href="/portfolio"
-        label="check my porftolio"
-        className="lg:hidden"
-      />
+      <Button href="/portfolio" label="about" className="lg:hidden" />
 
       <Footer />
     </>

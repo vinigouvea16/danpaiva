@@ -1,12 +1,10 @@
+import { NextIntlClientProvider } from 'next-intl'
+// eslint-disable-next-line camelcase
+import { getMessages, unstable_setRequestLocale } from 'next-intl/server'
 import type { Metadata } from 'next'
-// eslint-disable-next-line camelcase, @typescript-eslint/no-unused-vars
-import { Inter, Nunito_Sans } from 'next/font/google'
-import './globals.css'
+import { ReactNode } from 'react'
 import localFont from 'next/font/local'
-
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const inter = Inter({ subsets: ['latin'] })
-// const nunitoSans = Nunito_Sans({ subsets: ['latin'] })
+import './globals.css'
 
 const nunitoSans = localFont({
   src: [
@@ -40,21 +38,28 @@ const nunitoSans = localFont({
 
 export const metadata: Metadata = {
   title: 'Dann Paiva | WILDLIFE',
-  description: `Dann Paiva`,
+  description: 'Dann Paiva',
 }
 
-export default function RootLayout({
+type Props = {
+  children: ReactNode
+  params: { locale: string }
+}
+
+export default async function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+  params: { locale },
+}: Props) {
+  unstable_setRequestLocale(locale)
+
+  const messages = await getMessages()
+
   return (
-    <html lang="en">
-      <body
-        // className={`${nunitoSans.className} flex flex-col bg-black text-white`}
-        className={`${nunitoSans.className} bg-black text-white`}
-      >
-        {children}
+    <html lang={locale}>
+      <body className={`${nunitoSans.className} bg-black text-white`}>
+        <NextIntlClientProvider messages={messages}>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   )

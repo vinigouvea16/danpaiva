@@ -20,7 +20,6 @@ export default function SharedModal({
   images = [],
   currentPhoto,
   changePhotoId,
-  // closeModal,
   navigation,
 }: SharedModalProps) {
   const [loaded, setLoaded] = useState(false)
