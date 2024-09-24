@@ -18,7 +18,7 @@ export default function Index({ params: { locale } }: Props) {
       <LocaleSwitcherHeader />
       <Link href="/about" className="flex-1 relative group lg:h-lvh h-1/2">
         <Image
-          src="/images/desktop/wildlife.jpg"
+          src="/images/flamingo.jpg"
           height={1080}
           width={960}
           className="object-cover lg:h-lvh h-full"
@@ -26,7 +26,7 @@ export default function Index({ params: { locale } }: Props) {
           unoptimized={true}
           priority
         />
-        <div className="absolute z-10 inset-0 flex opacity-60 flex-col top-[10%] bottom-[10%] justify-between items-center group-hover:opacity-100 group-hover:text-amber-500">
+        <div className="absolute z-10 inset-0 flex opacity-60 flex-col top-[10%] bottom-[10%] justify-between items-center group-hover:opacity-100 group-hover:mix-blend-color-dodge group-hover:text-amber-500">
           <div className="relative ml-4">
             <span className=""> {t('span')}</span>
             <h1 className="xl:text-clamp-6xl text-4xl mt-3 font-extrabold uppercase tracking-[0.25em] bg-black bg-opacity-0">
@@ -41,7 +41,7 @@ export default function Index({ params: { locale } }: Props) {
 
       <Link href="/portfolio" className="flex-1 relative group lg:h-lvh h-1/2">
         <Image
-          src="/images/desktop/wildlife2.jpg"
+          src="/images/zebras.jpg"
           height={1080}
           width={960}
           className="object-cover lg:h-lvh h-full"
@@ -49,7 +49,7 @@ export default function Index({ params: { locale } }: Props) {
           unoptimized={true}
           priority
         />
-        <div className="absolute z-10 inset-0 uppercase flex flex-col top-[10%]  bottom-[10%] justify-between items-center opacity-60 font-extrabold group-hover:opacity-100 group-hover:text-amber-500">
+        <div className="absolute z-10 inset-0 uppercase flex flex-col top-[10%]  bottom-[10%] justify-between items-center opacity-60 font-extrabold group-hover:opacity-100 group-hover:mix-blend-color-dodge  group-hover:text-amber-500">
           <h3 className="xl:text-clamp-6xl pt-6 mt-3 text-4xl font-extrabold tracking-[0.25em] bg-black bg-opacity-0">
             {t('h3')}
           </h3>
