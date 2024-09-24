@@ -5,8 +5,8 @@ import React, { useEffect, useRef } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ImageProps } from '@/utils/types'
-import { useLastViewedPhoto } from '@/utils/useLastViewedPhoto'
-import Modal from '@/components/Modal'
+import { useLastViewedPhoto } from '@/utils/use-last-viewed-photo'
+import Modal from '@/components/modal'
 import { useSearchParams } from 'next/navigation'
 
 export default function PantanalClient({ images }: { images: ImageProps[] }) {

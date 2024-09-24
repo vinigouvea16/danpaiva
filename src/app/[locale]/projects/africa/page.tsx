@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import Button from '@/components/Button'
-import Footer from '@/components/Footer'
-import Nav from '@/components/Nav'
-import NavB from '@/components/NavB'
-import { getImagesFromCloudinary } from '@/utils/getImagesFromCloudinary'
+import Button from '@/components/button'
+import Footer from '@/components/footer'
+import Nav from '@/components/nav'
+import NavB from '@/components/navb'
+import { getImagesFromCloudinary } from '@/utils/get-images-from-cloudinary'
 import { Suspense } from 'react'
-import AfricaClient from './AfricaClient'
+import AfricaClient from './africa-client'
 // eslint-disable-next-line camelcase
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 

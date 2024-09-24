@@ -1,5 +1,5 @@
-import Modal from '@/components/Modal'
-import { getImagesFromCloudinary } from '@/utils/getImagesFromCloudinary'
+import Modal from '@/components/modal'
+import { getImagesFromCloudinary } from '@/utils/get-images-from-cloudinary'
 import { ImageProps } from '@/utils/types'
 import { notFound } from 'next/navigation'
 

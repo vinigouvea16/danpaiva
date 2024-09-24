@@ -1,5 +1,5 @@
-import Nav from '@/components/Nav'
-import NavB from '@/components/NavB'
+import Nav from '@/components/nav'
+import NavB from '@/components/navb'
 import Image from 'next/image'
 import Link from 'next/link'
 export default function Portfolio() {

@@ -1,6 +1,6 @@
-import { getImagesFromCloudinary } from '@/utils/getImagesFromCloudinary'
+import { getImagesFromCloudinary } from '@/utils/get-images-from-cloudinary'
 import { ImageProps } from '@/utils/types'
-import Carousel from '@/components/Carousel'
+import Carousel from '@/components/carousel'
 // import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import { Suspense } from 'react'

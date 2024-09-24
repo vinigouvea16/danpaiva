@@ -1,4 +1,4 @@
-import LocaleSwitcherHeader from '@/components/LanguageSwitcher'
+import LocaleSwitcherHeader from '@/components/language-switcher'
 import { useTranslations } from 'next-intl'
 // eslint-disable-next-line camelcase
 import { unstable_setRequestLocale } from 'next-intl/server'

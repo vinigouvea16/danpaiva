@@ -4,8 +4,8 @@ import { Dialog } from '@headlessui/react'
 import { motion } from 'framer-motion'
 import { useRouter } from 'next/navigation'
 import { useRef, useState, useEffect } from 'react'
-import SharedModal from './SharedModal'
-import useKeypress from '../utils/useKeypress'
+import SharedModal from './shared-modal'
+import useKeypress from '../utils/use-keypress'
 import type { ImageProps } from '../utils/types'
 
 interface ModalProps {

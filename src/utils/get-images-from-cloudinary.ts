@@ -1,4 +1,4 @@
-import getBase64ImageUrl from './generateBlurPlaceholder'
+import getBase64ImageUrl from './generate-blur-placeholder'
 import { ImageProps } from './types'
 
 export async function getImagesFromCloudinary(
