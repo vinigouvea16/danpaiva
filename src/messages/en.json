@@ -42,6 +42,16 @@
     "story-p": "During this migration, thousands of wildebeests, zebras, and gazelles gather in search of new pastures, experiencing moments of great tension and beauty. This gallery reveals the unique challenges they face, offering an intimate view of the phenomenon that is the heart of our project on the Great Migration.",
     "story-span": "A Wild Spectacle"
   },
+  "India": {
+    "hero-p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla accusantium atque adipisci deserunt enim, iusto, doloribus nihil, repudiandae nobis sunt id delectus recusandae exercitationem aperiam non fugit. Soluta, in.",
+    "story-p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla accusantium atque adipisci deserunt enim, iusto, doloribus nihil, repudiandae nobis sunt id delectus recusandae exercitationem aperiam non fugit. Soluta, in.",
+    "story-span": "india project"
+  },
+  "Himalaya": {
+    "hero-p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla accusantium atque adipisci deserunt enim, iusto, doloribus nihil, repudiandae nobis sunt id delectus recusandae exercitationem aperiam non fugit. Soluta, in.",
+    "story-p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla accusantium atque adipisci deserunt enim, iusto, doloribus nihil, repudiandae nobis sunt id delectus recusandae exercitationem aperiam non fugit. Soluta, in.",
+    "story-span": "Himalaya project"
+  },
   "LocaleSwitcherHeader": {
     "span": "Language"
   },

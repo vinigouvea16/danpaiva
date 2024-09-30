@@ -32,12 +32,12 @@ export default function About({ params: { locale } }: Props) {
         />
         <div
           id="text-hero"
-          className="absolute flex flex-col left-[10%] lg:top-1/3 top-1/4"
+          className="absolute flex flex-col lg:left-[10%] lg:top-1/2 top-[10%] left-0 md:text-left text-center"
         >
-          <h1 className="text-6xl font-extrabold">
+          <h1 className="lg:text-[3vw] text-[10vw] font-extrabold">
             {t('h1.part1')} <br /> {t('h1.part2')}
           </h1>
-          <p className="lg:text-3xl text-2xl w-2/3">{t('hero-p')}</p>
+          <p className="lg:text-3xl text-2xl lg:w-2/3">{t('hero-p')}</p>
           <span className="uppercase text-3xl font-extrabold tracking-widest text-amber-500">
             {t('hero-span')}
           </span>
@@ -61,17 +61,17 @@ export default function About({ params: { locale } }: Props) {
         <div className="flex xl:px-32 py-24 px-2 gap-12 xl:gap-0 justify-between items-center xl:flex-row flex-col ">
           <div
             id="left-side"
-            className="xl:w-1/2 gap-8 flex flex-col items-center xl:text-start text-center"
+            className="xl:max-w-[63%] gap-8 flex flex-col items-center xl:text-start text-center"
           >
             <span className="text-4xl font-light ">{t('myStory-span')}</span>
             <p
-              className="xl:text-lg font-light xl:leading-8  first-line:uppercase first-line:tracking-widest
+              className="xl:text-lg font-light xl:leading-8 text-justify first-line:uppercase first-line:tracking-widest
   first-letter:text-7xl first-letter:font-bold first-letter:text-white
   first-letter:mr-3 first-letter:float-left"
             >
               {t('myStory-p1')}
             </p>
-            <p className="xl:text-lg font-light xl:leading-8 ">
+            <p className="xl:text-lg font-light xl:leading-8 text-justify ">
               {t('myStory-p2')}
             </p>
           </div>
@@ -81,7 +81,7 @@ export default function About({ params: { locale } }: Props) {
               width={500}
               height={500}
               alt={'photo of the photographer'}
-              className="lg:rounded-none rounded-[4em]"
+              className="lg:rounded-none rounded-[2em]"
             />
           </div>
         </div>

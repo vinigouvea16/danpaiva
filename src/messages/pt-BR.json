@@ -43,6 +43,16 @@
    "story-p": " Durante essa migração, milhares de gnus, zebras e gazelas se reúnem em busca de novas pastagens, vivendo momentos de grande tensão e beleza. Esta galeria revela os desafios únicos que eles enfrentam, oferecendo uma visão íntima do fenômeno que é o coração do nosso projeto sobre a Grande Migração.",
    "story-span": "Um Espetáculo Selvagem"
   },
+  "India": {
+   "hero-p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla accusantium atque adipisci deserunt enim, iusto, doloribus nihil, repudiandae nobis sunt id delectus recusandae exercitationem aperiam non fugit. Soluta, in.",
+   "story-p": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla accusantium atque adipisci deserunt enim, iusto, doloribus nihil, repudiandae nobis sunt id delectus recusandae exercitationem aperiam non fugit. Soluta, in.",
+   "story-span": "projeto india"
+  },
+  "Himalaya": {
+   "hero-p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla accusantium atque adipisci deserunt enim, iusto, doloribus nihil, repudiandae nobis sunt id delectus recusandae exercitationem aperiam non fugit. Soluta, in.",
+   "story-p": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla accusantium atque adipisci deserunt enim, iusto, doloribus nihil, repudiandae nobis sunt id delectus recusandae exercitationem aperiam non fugit. Soluta, in.",
+   "story-span": "projeto Himalaia"
+  },
   "LocaleSwitcherHeader": {
     "span": "Idioma"
   },
