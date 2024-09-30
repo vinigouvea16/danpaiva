@@ -38,9 +38,9 @@
    "story-span": "The Harsh Reality of Wildfires in the Pantanal"
   },
   "Africa": {
-   "hero-p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cum voluptas recusandae tempora quidem corrupti voluptatibus eum? Cumque accusamus tempore nostrum. Quam facilis eveniet voluptatum, sunt quod soluta cupiditate fugiat?",
-   "story-p": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cum voluptas recusandae tempora quidem corrupti voluptatibus eum? Cumque accusamus tempore nostrum. Quam facilis eveniet voluptatum, sunt quod soluta cupiditate fugiat?",
-   "story-span": "About the project"
+    "hero-p": "Millions of animals cross the African savannas every year in a project dedicated to capturing the strength and beauty of this epic journey, facing rivers and predators in the wild spectacle of the Great Migration.",
+    "story-p": "During this migration, thousands of wildebeests, zebras, and gazelles gather in search of new pastures, experiencing moments of great tension and beauty. This gallery reveals the unique challenges they face, offering an intimate view of the phenomenon that is the heart of our project on the Great Migration.",
+    "story-span": "A Wild Spectacle"
   },
   "LocaleSwitcherHeader": {
     "span": "Language"

@@ -25,10 +25,10 @@
   },
   "Footer": {
     "p": {
-      "part1": "Vou adorar saber de você",
-      "part2": "Vamos trabalhar juntos"
+      "part1": "Adoraria saber mais sobre suas ideias.",
+      "part2": "Que tal trabalharmos juntos?"
     },
-    "h4": "Me contate"
+    "h4": "Vamos conversar"
   },
   "Pantanal": {
    "hero-p": "Meu take mais triste sobre a vida selvagem - a flora e a fauna mais ricas do Brasil reduzidas a cinzas enquanto os animais lutam para sobreviver em meio ao caos dos incêndios florestais",
@@ -39,9 +39,9 @@
    "story-span": "A Triste Realidade das Queimadas no Pantanal"
   },
   "Africa": {
-   "hero-p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cum voluptas recusandae tempora quidem corrupti voluptatibus eum? Cumque accusamus tempore nostrum. Quam facilis eveniet voluptatum, sunt quod soluta cupiditate fugiat?",
-   "story-p": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cum voluptas recusandae tempora quidem corrupti voluptatibus eum? Cumque accusamus tempore nostrum. Quam facilis eveniet voluptatum, sunt quod soluta cupiditate fugiat?",
-   "story-span": "Sobre o projeto"
+   "hero-p": "Milhões de animais cruzam as savanas africanas todos os anos em um projeto dedicado a capturar a força e a beleza dessa jornada épica, enfrentando rios e predadores no espetáculo selvagem da Grande Migração.",
+   "story-p": " Durante essa migração, milhares de gnus, zebras e gazelas se reúnem em busca de novas pastagens, vivendo momentos de grande tensão e beleza. Esta galeria revela os desafios únicos que eles enfrentam, oferecendo uma visão íntima do fenômeno que é o coração do nosso projeto sobre a Grande Migração.",
+   "story-span": "Um Espetáculo Selvagem"
   },
   "LocaleSwitcherHeader": {
     "span": "Idioma"
