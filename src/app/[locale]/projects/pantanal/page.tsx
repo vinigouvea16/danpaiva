@@ -8,6 +8,7 @@ import { getImagesFromCloudinary } from '@/utils/get-images-from-cloudinary'
 import { Suspense } from 'react'
 // eslint-disable-next-line camelcase
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
+import { ImageProps } from '@/utils/types'
 
 type Props = {
   params: { locale: string }
@@ -15,7 +16,7 @@ type Props = {
 
 export default async function Pantanal({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale)
-  const images = await getImagesFromCloudinary('pantanal')
+  const images: ImageProps[] = await getImagesFromCloudinary('pantanal')
   const t = await getTranslations('Pantanal')
 
   return (

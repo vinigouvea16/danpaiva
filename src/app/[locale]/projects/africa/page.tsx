@@ -8,6 +8,7 @@ import { Suspense } from 'react'
 import AfricaClient from './africa-client'
 // eslint-disable-next-line camelcase
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
+import { ImageProps } from '@/utils/types'
 
 type Props = {
   params: { locale: string }
@@ -15,7 +16,7 @@ type Props = {
 
 export default async function Africa({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale)
-  const images = await getImagesFromCloudinary('africa')
+  const images: ImageProps[] = await getImagesFromCloudinary('africa')
   const t = await getTranslations('Africa')
 
   return (

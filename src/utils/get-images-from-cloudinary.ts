@@ -19,6 +19,9 @@ export async function getImagesFromCloudinary(
           expression: `folder:${folderName}/*`,
           max_results: 20,
         }),
+        next: {
+          revalidate: 60 * 4,
+        },
       },
     )
 
