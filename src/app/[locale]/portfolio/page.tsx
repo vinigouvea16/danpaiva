@@ -13,11 +13,11 @@ export default function Portfolio() {
           className="relative group flex items-center justify-center bg-gray-800"
         >
           <Image
-            src="/images/desktop/pantanalHome.jpg"
+            src="/images/desktop/SNY07077.jpg"
             fill
             className="object-cover transform group-hover:brightness-75"
             alt="Project 1"
-            // unoptimized={true}
+            unoptimized={true}
           />
           <h3 className="absolute bottom-[20%] xl:right-[5%] text-white opacity-60 text-4xl font-bold uppercase tracking-[10px] group-hover:text-amber-500 group-hover:opacity-100 transition-colors">
             pantanal
@@ -28,11 +28,11 @@ export default function Portfolio() {
           className="relative group flex items-center justify-center bg-gray-800"
         >
           <Image
-            src="/images/desktop/india.jpg"
+            src="/images/desktop/SNY07486.jpg"
             fill
             className="object-cover group-hover:brightness-75"
             alt="Project 2"
-            // unoptimized={true}
+            unoptimized={true}
           />
           <h3 className="absolute bottom-[20%] xl:right-[5%] text-white opacity-60 text-4xl font-bold uppercase tracking-[10px] group-hover:text-amber-500 group-hover:opacity-100 transition-colors">
             himalaya
@@ -43,11 +43,11 @@ export default function Portfolio() {
           className="relative group flex items-center justify-center bg-gray-800"
         >
           <Image
-            src="/images/desktop/wildlife.jpg"
+            src="/images/desktop/SNY04113.jpg"
             fill
             className="object-cover group-hover:brightness-75"
             alt="Project 3"
-            // unoptimized={true}
+            unoptimized={true}
           />
           <h3 className="absolute bottom-[20%] xl:right-[5%] text-white opacity-60 text-4xl font-bold uppercase tracking-[10px] group-hover:text-amber-500 group-hover:opacity-100 transition-colors">
             india
@@ -58,11 +58,11 @@ export default function Portfolio() {
           className="relative group flex items-center justify-center bg-gray-800"
         >
           <Image
-            src="/images/desktop/africa.jpg"
+            src="/images/flamingo.jpg"
             fill
             className="object-cover group-hover:brightness-75"
             alt="Project 4"
-            // unoptimized={true}
+            unoptimized={true}
           />
           <h3 className="absolute bottom-[20%] xl:right-[5%] text-white opacity-60 text-4xl font-bold uppercase tracking-[10px] group-hover:text-amber-500 group-hover:opacity-100 transition-colors">
             africa

@@ -20,7 +20,7 @@ export default function LocaleSwitcherHeader() {
           <Image
             src="/images/us-flag.png"
             alt="USA flag"
-            width={40}
+            width={30}
             height={10}
             className="cursor-pointer border-2 border-white rounded transition-transform duration-100 hover:scale-110"
             onClick={() => switchLocale('en')}
@@ -28,7 +28,7 @@ export default function LocaleSwitcherHeader() {
           <Image
             src="/images/br-flag.png"
             alt="Brazilian flag"
-            width={40}
+            width={30}
             height={10}
             className="cursor-pointer border-2 border-white rounded transition-transform duration-200 hover:scale-110"
             onClick={() => switchLocale('pt-BR')}

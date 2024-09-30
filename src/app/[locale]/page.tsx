@@ -14,7 +14,7 @@ export default function Index({ params: { locale } }: Props) {
   const t = useTranslations('DesktopHome')
 
   return (
-    <div className="flex lg:flex-row h-dvh flex-col">
+    <div className="flex lg:flex-row h-lvh flex-col">
       <LocaleSwitcherHeader />
       <Link href="/about" className="flex-1 relative group lg:h-lvh h-1/2">
         <Image

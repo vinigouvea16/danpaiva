@@ -21,14 +21,14 @@ export default function About({ params: { locale } }: Props) {
       <NavB />
       <div
         id="hero"
-        className="flex flex-col h-dvh items-start justify-between"
+        className="flex flex-col h-lvh items-start justify-between"
       >
         <Image
-          src="/images/desktop/SNY06578.jpg"
+          src="/images/desktop/SNY07486.jpg"
           height={1080}
           width={1920}
           alt={'a picture of a bird'}
-          className="absolute w-screen h-screen object-cover"
+          className="absolute w-screen h-screen object-cover brightness-75"
         />
         <div
           id="text-hero"
@@ -57,7 +57,7 @@ export default function About({ params: { locale } }: Props) {
         </div>
       </div>
 
-      <div id="myStory" className="xl:h-dvh w-full">
+      <div id="myStory" className="xl:h-lvh w-full">
         <div className="flex xl:px-32 py-24 px-2 gap-12 xl:gap-0 justify-between items-center xl:flex-row flex-col ">
           <div
             id="left-side"
@@ -65,13 +65,13 @@ export default function About({ params: { locale } }: Props) {
           >
             <span className="text-4xl font-light ">{t('myStory-span')}</span>
             <p
-              className="xl:text-lg font-light xl:leading-8 text-justify first-line:uppercase first-line:tracking-widest
+              className="xl:text-lg font-light xl:leading-8  first-line:uppercase first-line:tracking-widest
   first-letter:text-7xl first-letter:font-bold first-letter:text-white
   first-letter:mr-3 first-letter:float-left"
             >
               {t('myStory-p1')}
             </p>
-            <p className="xl:text-lg font-light xl:leading-8 text-justify">
+            <p className="xl:text-lg font-light xl:leading-8 ">
               {t('myStory-p2')}
             </p>
           </div>

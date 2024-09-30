@@ -24,17 +24,18 @@ export default async function Africa({ params: { locale } }: Props) {
       <NavB />
       <div className="flex flex-col h-svh items-start justify-between overflow-x-hidden">
         <Image
-          src="/images/desktop/africa.jpg"
+          src="/images/flamingo.jpg"
           alt={'a picture of a cheetah'}
-          className="absolute w-screen h-screen object-cover -z-10  "
+          className="absolute w-screen h-screen object-cover -z-10 brightness-75"
           height={1080}
           width={1920}
+          unoptimized={true}
         />
         <div
           id="text-hero"
           className="relative flex flex-col lg:left-[5%] lg:top-1/2 h-full lg:h-auto lg:items-start items-center lg:justify-normal justify-evenly lg:px-0 px-2 gap-80 lg:gap-0"
         >
-          <h1 className="lg:text-8xl text-5xl font-extrabold  uppercase tracking-[0.20em]">
+          <h1 className="lg:text-[7vw] text-[11vw] font-extrabold  uppercase tracking-[0.20em]">
             AFRICA
           </h1>
           <p className="text-xl lg:w-1/2 lg:pl-1 text-center lg:text-start">
