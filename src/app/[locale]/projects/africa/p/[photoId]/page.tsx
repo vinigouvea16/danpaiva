@@ -18,7 +18,7 @@ const getCurrentPhoto = async (photoId: string): Promise<ImageProps | null> => {
 const ImagePage = async ({ params }: PageProps) => {
   const { photoId } = params
   const currentPhoto = await getCurrentPhoto(photoId)
-  console.log('Current Photo:', currentPhoto)
+  // console.log('Current Photo:', currentPhoto)
 
   if (!currentPhoto) {
     notFound()

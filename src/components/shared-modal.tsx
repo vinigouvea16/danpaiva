@@ -53,6 +53,8 @@ export default function SharedModal({
   }
 
   const currentImage = images?.[index] ?? currentPhoto
+  const isPortrait =
+    parseInt(currentImage?.height) > parseInt(currentImage?.width)
 
   return (
     <MotionConfig
@@ -62,12 +64,12 @@ export default function SharedModal({
       }}
     >
       <div
-        className="relative z-50 flex aspect-[3/2] w-full max-w-7xl items-center wide:h-full xl:taller-than-854:h-auto"
+        className="relative z-50 flex aspect-[1/2] md:aspect-[3/2] w-full max-w-7xl items-center wide:h-full xl:taller-than-854:h-auto"
         {...handlers}
       >
         {/* Main image */}
         <div className="w-full overflow-hidden">
-          <div className="relative flex aspect-[3/2] items-center justify-center">
+          <div className="relative flex aspect-[1/2] md:aspect-[3/2] items-center justify-center">
             <AnimatePresence initial={false} custom={direction}>
               <motion.div
                 key={currentImage?.public_id}
@@ -92,15 +94,23 @@ export default function SharedModal({
                 <Image
                   src={`https://res.cloudinary.com/${
                     process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME
-                  }/image/upload/c_scale,${navigation ? 'w_1280' : 'w_1920'}/${
-                    currentImage?.public_id
-                  }.${currentImage?.format}`}
+                  }/image/upload/c_fill,${navigation ? 'w_1280' : 'w_1920'},${
+                    isPortrait ? 'ar_4:5' : 'ar_16:9'
+                  }/${currentImage?.public_id}.${currentImage?.format}`}
                   width={navigation ? 1280 : 1920}
-                  height={navigation ? 853 : 1280}
+                  height={
+                    navigation
+                      ? isPortrait
+                        ? 1600
+                        : 853
+                      : isPortrait
+                        ? 2400
+                        : 1280
+                  }
                   priority
                   alt="Dann Paiva's photo"
                   onLoad={() => setLoaded(true)}
-                  className="object-cover w-full h-full"
+                  className="object-contain w-full h-full"
                 />
               </motion.div>
             </AnimatePresence>
@@ -111,7 +121,7 @@ export default function SharedModal({
         <div className="absolute inset-0 mx-auto flex max-w-7xl items-center justify-center">
           {/* Buttons */}
           {loaded && (
-            <div className="relative aspect-[3/2] max-h-full w-full">
+            <div className="relative aspect-[1/2] md:aspect-[3/2] max-h-full w-full">
               {navigation && (
                 <>
                   {index > 0 && (
@@ -149,7 +159,7 @@ export default function SharedModal({
             <div className="fixed inset-x-0 bottom-0 z-40 overflow-hidden bg-gradient-to-b from-black/0 to-black/60">
               <motion.div
                 initial={false}
-                className="mx-auto mt-6 mb-6 flex aspect-[3/2] h-14"
+                className="mx-auto mt-6 mb-6 flex aspect-[1/2] md:aspect-[3/2] h-14"
               >
                 <AnimatePresence initial={false}>
                   {filteredImages?.map(({ public_id, format, id }) => (

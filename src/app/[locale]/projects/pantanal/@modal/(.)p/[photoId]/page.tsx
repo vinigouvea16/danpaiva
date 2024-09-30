@@ -18,6 +18,7 @@ const getCurrentPhoto = async (
 
 export default async function ModalPage({ params }: PageProps) {
   const { photoId } = params
+  const project = 'pantanal'
   const images = await getImagesFromCloudinary('pantanal')
   const currentImage = await getCurrentPhoto(photoId, images)
 
@@ -25,5 +26,5 @@ export default async function ModalPage({ params }: PageProps) {
     notFound()
   }
 
-  return <Modal images={images} currentImage={currentImage} />
+  return <Modal images={images} currentImage={currentImage} project={project} />
 }

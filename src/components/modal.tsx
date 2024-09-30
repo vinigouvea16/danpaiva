@@ -12,9 +12,15 @@ interface ModalProps {
   images: ImageProps[]
   currentImage?: ImageProps
   onClose?: () => void
+  project: string
 }
 
-export default function Modal({ images, currentImage, onClose }: ModalProps) {
+export default function Modal({
+  images,
+  currentImage,
+  onClose,
+  project,
+}: ModalProps) {
   const overlayRef = useRef<HTMLDivElement>(null)
   const router = useRouter()
   const [curIndex, setCurIndex] = useState(
@@ -35,7 +41,7 @@ export default function Modal({ images, currentImage, onClose }: ModalProps) {
     if (newVal >= 0 && newVal < images.length) {
       setDirection(newVal > curIndex ? 1 : -1)
       setCurIndex(newVal)
-      router.replace(`/projects/pantanal/p/${images[newVal].id}`)
+      router.replace(`/projects/${project}/p/${images[newVal].id}`)
     }
   }
 

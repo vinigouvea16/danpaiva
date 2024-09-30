@@ -9,6 +9,7 @@ interface PageProps {
   }
 }
 
+// Helper function to get the current image by ID
 const getCurrentPhoto = async (
   photoId: string,
   images: ImageProps[],
@@ -18,12 +19,14 @@ const getCurrentPhoto = async (
 
 export default async function ModalPage({ params }: PageProps) {
   const { photoId } = params
-  const images = await getImagesFromCloudinary('africa')
+  const project = 'africa'
+  const images = await getImagesFromCloudinary(project)
   const currentImage = await getCurrentPhoto(photoId, images)
 
   if (!currentImage) {
     notFound()
   }
 
-  return <Modal images={images} currentImage={currentImage} />
+  // Pass the `project` prop to the `Modal` component
+  return <Modal images={images} currentImage={currentImage} project={project} />
 }

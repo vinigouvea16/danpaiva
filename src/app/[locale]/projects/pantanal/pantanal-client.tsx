@@ -29,6 +29,7 @@ export default function PantanalClient({ images }: { images: ImageProps[] }) {
           images={images}
           onClose={() => setLastViewedPhoto(photoId)}
           currentImage={undefined}
+          project={'pantanal'}
         />
       )}
       <div className="columns-1 gap-4 sm:columns-2 lg:columns-3 2xl:columns-5">

@@ -21,7 +21,7 @@ const ImagePage = async ({ params }: PageProps) => {
   const { photoId } = params
   // console.log('Photo ID:', photoId)
   const currentPhoto = await getCurrentPhoto(photoId)
-  console.log('Current Photo:', currentPhoto)
+  // console.log('Current Photo:', currentPhoto)
 
   if (!currentPhoto) {
     notFound()
