@@ -64,7 +64,7 @@ export default function SharedModal({
       }}
     >
       <div
-        className="relative z-50 flex aspect-[1/2] md:aspect-[3/2] w-full max-w-7xl items-center wide:h-full xl:taller-than-854:h-auto"
+        className="relative z-50 flex aspect-[1/2] md:aspect-[3/2] w-full max-w-7xl 3xl:max-w-[100rem] items-center wide:h-full xl:taller-than-854:h-auto"
         {...handlers}
       >
         {/* Main image */}
@@ -94,10 +94,10 @@ export default function SharedModal({
                 <Image
                   src={`https://res.cloudinary.com/${
                     process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME
-                  }/image/upload/c_fill,${navigation ? 'w_1280' : 'w_1920'},${
+                  }/image/upload/c_fill,${navigation ? 'w_1280' : 'w_2560'},${
                     isPortrait ? 'ar_4:5' : 'ar_16:9'
-                  }/${currentImage?.public_id}.${currentImage?.format}`}
-                  width={navigation ? 1280 : 1920}
+                  },q_auto:best,f_auto,dpr_auto/${currentImage?.public_id}.${currentImage?.format}`}
+                  width={navigation ? 1280 : 2560}
                   height={
                     navigation
                       ? isPortrait
@@ -110,7 +110,7 @@ export default function SharedModal({
                   priority
                   alt="Dann Paiva's photo"
                   onLoad={() => setLoaded(true)}
-                  className="object-contain w-full h-full"
+                  className="object-contain h-full"
                 />
               </motion.div>
             </AnimatePresence>

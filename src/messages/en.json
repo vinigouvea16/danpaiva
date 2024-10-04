@@ -29,24 +29,24 @@
     },
     "h4": "reach me"
   },
-  "Pantanal": {
-   "hero-p": "My saddest take on wildlife - Brazil's richest flora and fauna burnt to ashes as the animals struggle to survive mid wildfire chaos",
-   "story-p": {
-    "part1": "Amidst the vastness of the Pantanal, one of the most biodiverse regions in the world, fire spreads relentlessly. In recent years, wildfires have devastated this unique ecosystem, turning its lush flora and fauna into ashes. This region, home to iconic species such as the jaguar, the jabiru stork, and countless others, faces an unprecedented threat.",
-    "part2": "Often sparked by human activities, these wildfires cause irreparable destruction, leading to the death of thousands of animals and the loss of essential habitats. In a landscape where life struggles to survive amidst the chaos, the images captured here stand as a testament to the devastating impact of these fires. They remind us of the urgency to protect the Pantanal before it's too late."
-   },
-   "story-span": "The Harsh Reality of Wildfires in the Pantanal"
-  },
+"Pantanal": {
+   "hero-p": "One of the richest and most biodiverse biomes in Brazil, but it also carries a sad reality: the devastation caused by wildfires. The flames consume the lush flora and threaten the unique fauna that inhabits this region, leaving a trail of destruction and suffering.",
+   "story-p": "The Pantanal is where my journey into wildlife began. My first trip took me to this incredible place, and since then, I haven't been able to stop exploring. With its vast expanse, the largest flooded plain in the world is home to an impressive biodiversity, featuring over 600 species of birds and 100 species of mammals. This is undoubtedly one of the best places to observe the majestic jaguar in its natural habitat.",
+   "story-p2": "Unfortunately, wildfires, often caused by human actions, devastate the vegetation of the Pantanal each year, having a devastating impact on the fauna. Amidst the chaos, life struggles to survive, and the images captured here serve as a powerful testament to the consequences of these flames. They remind us of the urgency to protect this unique ecosystem before it’s too late.",
+   "story-span": "Between Beauty and Destruction"
+},
   "Africa": {
-    "hero-p": "Millions of animals cross the African savannas every year in a project dedicated to capturing the strength and beauty of this epic journey, facing rivers and predators in the wild spectacle of the Great Migration.",
-    "story-p": "During this migration, thousands of wildebeests, zebras, and gazelles gather in search of new pastures, experiencing moments of great tension and beauty. This gallery reveals the unique challenges they face, offering an intimate view of the phenomenon that is the heart of our project on the Great Migration.",
-    "story-span": "A Wild Spectacle"
-  },
+    "hero-p": "Africa is a sanctuary of biodiversity, where each landscape reveals surprising encounters. Whether in the savannas or the dense forests, the feeling of being in front of an untouched world is constant. Here, nature follows its own rhythm, showing why this continent is the true cradle of wildlife.",
+    "story-p": "It's almost hard to believe the number of animals present in a single continent. From the endless plains of the Serengeti, where the world's largest mammal migration occurs, to the tropical forests of Uganda, home to the famous mountain gorillas. No matter which country you choose, you can be sure that you will have a unique and wild experience.",
+    "story-p2": "Unlike other places where you search for a specific animal, Africa gives you the opportunity to simply explore and encounter a diversity of animals you never thought possible, always with incredible landscapes in the background. Conservation is taken very seriously here, as they understand the importance of this wild world in preserving our planet.",
+    "story-span": "The Cradle of Wildlife"
+      },  
   "India": {
-    "hero-p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla accusantium atque adipisci deserunt enim, iusto, doloribus nihil, repudiandae nobis sunt id delectus recusandae exercitationem aperiam non fugit. Soluta, in.",
-    "story-p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla accusantium atque adipisci deserunt enim, iusto, doloribus nihil, repudiandae nobis sunt id delectus recusandae exercitationem aperiam non fugit. Soluta, in.",
-    "story-span": "india project"
-  },
+   "hero-p": "India is an incredible destination for wildlife enthusiasts, where the diversity of fauna blends with rich culture. Get ready to explore the unique adventures and encounters that make this country special for observing nature.",
+   "story-p": "For fans of big cats, there’s no better place than a country where you can spot three of these magnificent felines. Besides its extremely peculiar culture and beautiful landscapes, photographing snow leopards, tigers, and leopards is the dream of every nature photographer.",
+   "story-p2": "From the warm temperatures of Ranthambore, home to tigers, to the stunning rock formations of Jawai, home to leopards, and even to the Himalayan mountains, where temperatures can drop to around -30°C, where snow leopards reside. A mix of different climates, landscapes, and animals all in one country.",
+   "story-span": "The Refuge of Big Cats"
+},
   "Himalaya": {
     "hero-p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla accusantium atque adipisci deserunt enim, iusto, doloribus nihil, repudiandae nobis sunt id delectus recusandae exercitationem aperiam non fugit. Soluta, in.",
     "story-p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla accusantium atque adipisci deserunt enim, iusto, doloribus nihil, repudiandae nobis sunt id delectus recusandae exercitationem aperiam non fugit. Soluta, in.",

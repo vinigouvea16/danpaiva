@@ -24,7 +24,7 @@ export default function About({ params: { locale } }: Props) {
         className="flex flex-col h-lvh items-start justify-between"
       >
         <Image
-          src="/images/desktop/SNY07486.jpg"
+          src="/images/desktop/cheetah.jpg"
           height={1080}
           width={1920}
           alt={'a picture of a bird'}
@@ -32,7 +32,7 @@ export default function About({ params: { locale } }: Props) {
         />
         <div
           id="text-hero"
-          className="absolute flex flex-col lg:left-[10%] lg:top-1/2 top-[10%] left-0 md:text-left text-center"
+          className="absolute flex flex-col lg:left-[10%] lg:top-1/2 top-[55%] left-0 md:text-left text-center"
         >
           <h1 className="lg:text-[3vw] text-[10vw] font-extrabold">
             {t('h1.part1')} <br /> {t('h1.part2')}
@@ -57,7 +57,7 @@ export default function About({ params: { locale } }: Props) {
         </div>
       </div>
 
-      <div id="myStory" className="xl:h-lvh w-full">
+      <div id="myStory" className="xl:h-full w-full">
         <div className="flex xl:px-32 py-24 px-2 gap-12 xl:gap-0 justify-between items-center xl:flex-row flex-col ">
           <div
             id="left-side"

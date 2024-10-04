@@ -17,10 +17,10 @@ export async function getImagesFromCloudinary(
         },
         body: JSON.stringify({
           expression: `folder:${folderName}/*`,
-          max_results: 20,
+          max_results: 24,
         }),
         next: {
-          revalidate: 60 * 4,
+          revalidate: 60,
         },
       },
     )

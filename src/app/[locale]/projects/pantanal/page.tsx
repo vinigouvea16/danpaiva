@@ -57,13 +57,12 @@ export default async function Pantanal({ params: { locale } }: Props) {
       </div>
       <div id="story" className="bg-black w-full h-auto">
         <div className="flex xl:px-36 py-24 px-2 gap-5 ">
-          <div className="gap-8 flex flex-col items-center text-center ">
-            <span className="xl:text-6xl text-4xl font-extrabold  ">
+          <div className="space-y-2 flex flex-col items-center text-center ">
+            <span className="xl:text-6xl text-4xl font-extrabold mb-8">
               {t('story-span')}
             </span>
-            <p className="xl:text-xl font-light">
-              {t('story-p.part1')} <br /> {t('story-p.part2')}
-            </p>
+            <p className="xl:text-xl font-light">{t('story-p')}</p>
+            <p className="xl:text-xl font-light">{t('story-p2')}</p>
           </div>
         </div>
       </div>

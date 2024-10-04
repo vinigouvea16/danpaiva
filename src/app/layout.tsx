@@ -55,7 +55,7 @@ export default async function RootLayout({
   const messages = await getMessages()
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className="scroll-smooth">
       <body className={`${nunitoSans.className} bg-black text-white`}>
         <NextIntlClientProvider messages={messages}>
           {children}

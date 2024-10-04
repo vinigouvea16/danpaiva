@@ -10,7 +10,7 @@ export default function Footer() {
         className="lg:flex lg:flex-row flex flex-col bg-black lg:h-96 py-16 border-t-2 border-b-2 mb-4 justify-around items-center lg:gap-0 gap-10 border-white w-full text-center lg:text-start"
       >
         <div className="gap-4 md:gap-4 flex flex-col">
-          <h4 className="uppercase lg:text-[4vw] text-6xl font-bold md:max-w-[550px]">
+          <h4 className="uppercase lg:text-[4vw] text-6xl font-bold md:max-w-[550px] 3xl:max-w-none">
             {t('h4')}
           </h4>
           <p className="uppercase text-xl opacity-60 font-normal pl-1 ">

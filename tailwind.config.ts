@@ -29,6 +29,10 @@ const config: Config = {
         'clamp-7xl': 'clamp(1.75rem, 3.5vw + 0.875rem, 4.5rem)',
         'clamp-6xl': 'clamp(1.5rem, 3vw + 0.6rem, 4rem)',
       },
+      screens: {
+        '3xl': '1920px',
+        '4xl': '2560px',
+      },
     },
   },
   plugins: [],

@@ -32,7 +32,7 @@ export default function IndiaClient({ images }: { images: ImageProps[] }) {
           project={'india'}
         />
       )}
-      <div className="columns-1 gap-4 sm:columns-2 lg:columns-3 2xl:columns-5">
+      <div className="columns-1 gap-4 sm:columns-2 lg:columns-3 2xl:columns-4 4xl:columns-6">
         {images.map(({ id, public_id, format, blurDataUrl }) => (
           <Link
             key={id}
@@ -46,13 +46,13 @@ export default function IndiaClient({ images }: { images: ImageProps[] }) {
               className="transform rounded-lg brightness-90 transition group-hover:brightness-110"
               style={{ transform: 'translate3d(0, 0, 0)' }}
               blurDataURL={blurDataUrl}
-              src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
-              width={720}
-              height={480}
+              src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_1280,q_auto,f_auto/${public_id}.${format}`}
+              width={1280}
+              height={853}
               sizes="(max-width: 640px) 100vw,
-                (max-width: 1280px) 50vw,
-                (max-width: 1536px) 33vw,
-                25vw"
+              (max-width: 1280px) 50vw,
+              (max-width: 1536px) 33vw,
+              25vw"
             />
           </Link>
         ))}

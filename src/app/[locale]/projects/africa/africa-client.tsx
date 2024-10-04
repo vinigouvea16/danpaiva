@@ -32,7 +32,7 @@ export default function AfricaClient({ images }: { images: ImageProps[] }) {
           project={'africa'}
         />
       )}
-      <div className="columns-1 gap-4 sm:columns-2 lg:columns-3 2xl:columns-5">
+      <div className="columns-1 gap-4 sm:columns-2 lg:columns-3 2xl:columns-4 4xl:columns-6">
         {images.map(({ id, public_id, format, blurDataUrl }) => (
           <Link
             key={id}

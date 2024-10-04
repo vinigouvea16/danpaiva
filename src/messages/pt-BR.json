@@ -31,22 +31,22 @@
     "h4": "Vamos conversar"
   },
   "Pantanal": {
-   "hero-p": "Meu take mais triste sobre a vida selvagem - a flora e a fauna mais ricas do Brasil reduzidas a cinzas enquanto os animais lutam para sobreviver em meio ao caos dos incêndios florestais",
-    "story-p": {
-    "part1": "Em meio à vastidão do Pantanal, um dos biomas mais ricos e biodiversos do mundo, o fogo se espalha de forma implacável. Nos últimos anos, as queimadas têm devastado essa região única, transformando a exuberante flora e fauna em cinzas. Esse ecossistema, que abriga espécies icônicas como a onça-pintada, o tuiuiú, e inúmeras outras, enfrenta uma ameaça sem precedentes.",
-    "part2": "As queimadas, muitas vezes provocadas por atividades humanas, causam uma destruição irreparável, levando à morte de milhares de animais e à perda de habitats essenciais. Em um cenário onde a vida luta para sobreviver em meio ao caos, as imagens capturadas aqui são um testemunho do impacto devastador dessas chamas. Elas nos lembram da urgência de proteger o Pantanal, antes que seja tarde demais."
-   },
-   "story-span": "A Triste Realidade das Queimadas no Pantanal"
+   "hero-p": "Um dos biomas mais ricos e biodiversos do Brasil, mas também carrega uma triste realidade: a devastação causada pelas queimadas. As chamas consomem a flora exuberante e ameaçam a fauna única que habita essa região, deixando um rastro de destruição e sofrimento.",
+    "story-p": "O Pantanal é onde minha jornada pela vida selvagem começou. Minha primeira viagem me levou a esse lugar incrível, e desde então, nunca mais consegui parar de explorar. Com sua vasta extensão, a maior planície alagada do mundo abriga uma biodiversidade impressionante, com mais de 600 espécies de aves e 100 espécies de mamíferos. Este é, sem dúvida, um dos melhores locais para observar a majestosa onça-pintada em seu habitat natural.",
+    "story-p2": "Infelizmente, as queimadas, muitas vezes causadas por ações humanas, devastam a vegetação do Pantanal a cada ano, causando um impacto devastador na fauna. Em meio ao caos, a vida luta para sobreviver, e as imagens capturadas aqui servem como um poderoso testemunho das consequências dessas chamas. Elas nos lembram da urgência de proteger esse ecossistema único antes que seja tarde demais.",
+   "story-span": "Entre a Beleza e a Destruição"
   },
   "Africa": {
-   "hero-p": "Milhões de animais cruzam as savanas africanas todos os anos em um projeto dedicado a capturar a força e a beleza dessa jornada épica, enfrentando rios e predadores no espetáculo selvagem da Grande Migração.",
-   "story-p": " Durante essa migração, milhares de gnus, zebras e gazelas se reúnem em busca de novas pastagens, vivendo momentos de grande tensão e beleza. Esta galeria revela os desafios únicos que eles enfrentam, oferecendo uma visão íntima do fenômeno que é o coração do nosso projeto sobre a Grande Migração.",
-   "story-span": "Um Espetáculo Selvagem"
+   "hero-p": "A África é um santuário de biodiversidade, onde cada paisagem revela encontros surpreendentes. Seja nas savanas ou nas florestas densas, a sensação de estar diante de um mundo intocado é constante. Aqui, a natureza segue seu próprio ritmo, mostrando por que este continente é o verdadeiro berço da vida selvagem.",
+   "story-p": "É até difícil acreditar na quantidade de animais presentes em um único continente. Das planícies intermináveis do Serengeti, onde ocorre a maior migração de mamíferos do mundo, até as florestas tropicais de Uganda, habitat dos famosos gorilas-das-montanhas. Não importa o país que você escolher, pode ter certeza de que terá uma experiência selvagem e única.",
+   "story-p2": "Diferente de certos lugares onde você procura por um animal específico, a África te proporciona a possibilidade de apenas explorar e encontrar uma diversidade de animais que você nem imaginava ser possível, sempre com paisagens incríveis como pano de fundo. A preservação é levada muito a sério, pois entendem a importância desse mundo selvagem para a conservação do nosso planeta.",
+   "story-span": "O Berço da Vida Selvagem"
   },
   "India": {
-   "hero-p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla accusantium atque adipisci deserunt enim, iusto, doloribus nihil, repudiandae nobis sunt id delectus recusandae exercitationem aperiam non fugit. Soluta, in.",
-   "story-p": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla accusantium atque adipisci deserunt enim, iusto, doloribus nihil, repudiandae nobis sunt id delectus recusandae exercitationem aperiam non fugit. Soluta, in.",
-   "story-span": "projeto india"
+   "hero-p": "A Índia é um destino incrível para amantes da vida selvagem, onde a diversidade de fauna se mistura à rica cultura. Prepare-se para explorar as aventuras e encontros únicos que tornam este país especial para a observação da natureza.",
+   "story-p": "Para os fãs dos “big cats”, nada melhor do que visitar um país onde você tem a possibilidade de avistar três desses felinos maravilhosos. Além da cultura extremamente peculiar e de suas lindas paisagens, fotografar leopardos-das-neves, tigres e leopardos é o sonho de todo fotógrafo de natureza.",
+   "story-p2": "Das temperaturas quentes de Ranthambore, casa dos tigres, às maravilhosas formações rochosas de Jawai, lar dos leopardos, e até as montanhas do Himalaia, com temperaturas em torno de -30°C, onde habitam os leopardos-das-neves. Uma mistura de diferentes climas, paisagens e animais em um só país.",
+   "story-span": "O Refúgio dos Grandes Felinos"
   },
   "Himalaya": {
    "hero-p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla accusantium atque adipisci deserunt enim, iusto, doloribus nihil, repudiandae nobis sunt id delectus recusandae exercitationem aperiam non fugit. Soluta, in.",

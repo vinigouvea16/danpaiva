@@ -19,10 +19,11 @@ export default function Index({ params: { locale } }: Props) {
       <Link href="/about" className="flex-1 relative group lg:h-lvh h-1/2">
         <Image
           src="/images/flamingo.jpg"
-          height={1080}
-          width={960}
+          // height={1080}
+          // width={960}
+          fill
           className="object-cover lg:h-lvh h-full"
-          alt="bird picture"
+          alt="flamingos flying above the African sea"
           unoptimized={true}
           priority
         />
@@ -42,10 +43,11 @@ export default function Index({ params: { locale } }: Props) {
       <Link href="/portfolio" className="flex-1 relative group lg:h-lvh h-1/2">
         <Image
           src="/images/zebras.jpg"
-          height={1080}
-          width={960}
+          // height={1080}
+          // width={960}
+          fill
           className="object-cover lg:h-lvh h-full"
-          alt="monkey picture"
+          alt="two zebras on top of a grass field"
           unoptimized={true}
           priority
         />

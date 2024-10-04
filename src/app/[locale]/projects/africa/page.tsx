@@ -25,7 +25,7 @@ export default async function Africa({ params: { locale } }: Props) {
       <NavB />
       <div className="flex flex-col h-svh items-start justify-between overflow-x-hidden">
         <Image
-          src="/images/flamingo.jpg"
+          src="/images/desktop/lion.jpg"
           alt={'a picture of a cheetah'}
           className="absolute w-screen h-screen object-cover -z-10 brightness-75"
           height={1080}
@@ -57,11 +57,12 @@ export default async function Africa({ params: { locale } }: Props) {
       </div>
       <div id="story" className="bg-black w-full h-auto">
         <div className="flex xl:px-36 py-24 px-2 gap-5 ">
-          <div className="gap-8 flex flex-col items-center text-center ">
-            <span className="xl:text-6xl text-4xl font-extrabold ">
+          <div className="space-y-2 flex flex-col items-center text-center ">
+            <span className="xl:text-6xl text-4xl font-extrabold mb-8">
               {t('story-span')}
             </span>
             <p className="xl:text-xl font-light">{t('story-p')}</p>
+            <p className="xl:text-xl font-light">{t('story-p2')}</p>
           </div>
         </div>
       </div>
