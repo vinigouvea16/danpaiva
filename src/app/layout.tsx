@@ -39,6 +39,25 @@ const nunitoSans = localFont({
 export const metadata: Metadata = {
   title: 'Dann Paiva | WILDLIFE',
   description: 'Dann Paiva',
+  openGraph: {
+    title: 'Dann Paiva | WILDLIFE',
+    description: 'Discover the incredible wildlife photography of Dann Paiva.',
+    url: 'https://danpaiva-wildlife.vercel.app/',
+    images: [
+      {
+        url: '/metadataimagepaiva.png',
+        width: 800,
+        height: 600,
+        alt: 'Wildlife Photography',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Dann Paiva | WILDLIFE',
+    description: 'Discover the incredible wildlife photography of Dann Paiva.',
+    images: ['/metadataimagepaiva.png'],
+  },
 }
 
 type Props = {
