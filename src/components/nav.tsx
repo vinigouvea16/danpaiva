@@ -39,7 +39,7 @@ export default function Nav() {
                 className="flex justify-between pb-8 w-full items-center"
               >
                 <a href="/about" onClick={toggleMenu}>
-                  LOGO
+                  {/* LOGO */}
                 </a>
                 <button className="mb-4" onClick={toggleMenu}>
                   <svg

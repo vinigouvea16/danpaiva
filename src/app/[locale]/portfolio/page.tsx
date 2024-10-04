@@ -97,7 +97,7 @@ export default function Portfolio() {
             alt="Project 1"
             unoptimized={true}
           />
-          <h3 className="absolute bottom-[47%] xl:right-[5%] text-white opacity-60 text-4xl font-bold uppercase tracking-[10px] group-hover:text-amber-500 group-hover:opacity-100 transition-colors">
+          <h3 className="absolute bottom-[20%] xl:bottom-[48%] xl:right-[5%] text-white opacity-75 xl:opacity-60 text-4xl font-bold uppercase tracking-[10px] group-hover:text-amber-500 group-hover:opacity-100 transition-colors">
             pantanal
           </h3>
         </Link>
