@@ -32,17 +32,17 @@ export default function About({ params: { locale } }: Props) {
         />
         <div
           id="text-hero"
-          className="absolute flex flex-col lg:left-[10%] lg:top-1/2 top-[55%] left-0 md:text-left text-center"
+          className="absolute flex flex-col lg:left-[10%] lg:top-1/2 top-[60%] left-0 md:text-left text-center px-4"
         >
-          <h1 className="lg:text-[3vw] text-[10vw] font-extrabold">
+          <h1 className="lg:text-[3vw] text-[8vw] font-extrabold">
             {t('h1.part1')} <br /> {t('h1.part2')}
           </h1>
-          <p className="lg:text-3xl text-2xl lg:w-2/3">{t('hero-p')}</p>
-          <span className="uppercase text-3xl font-extrabold tracking-widest text-amber-500">
+          <p className="lg:text-3xl text-lg lg:w-2/3">{t('hero-p')}</p>
+          <span className="uppercase lg:text-3xl text-xl font-extrabold tracking-widest text-amber-500 pt-1">
             {t('hero-span')}
           </span>
         </div>
-        <div className="bottom-20 absolute flex left-1/2">
+        <div className="bottom-4 absolute flex left-[48%]">
           <a href="#myStory">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -65,13 +65,13 @@ export default function About({ params: { locale } }: Props) {
           >
             <span className="text-4xl font-light ">{t('myStory-span')}</span>
             <p
-              className="xl:text-lg font-light xl:leading-8 text-justify first-line:uppercase first-line:tracking-widest
-  first-letter:text-7xl first-letter:font-bold first-letter:text-white
-  first-letter:mr-3 first-letter:float-left"
+              className="xl:text-lg font-light xl:leading-8  md:first-line:uppercase md:first-line:tracking-widest
+  md:first-letter:text-7xl md:first-letter:font-bold md:first-letter:text-white
+  md:first-letter:mr-3 md:first-letter:float-left"
             >
               {t('myStory-p1')}
             </p>
-            <p className="xl:text-lg font-light xl:leading-8 text-justify ">
+            <p className="xl:text-lg font-light xl:leading-8 ">
               {t('myStory-p2')}
             </p>
           </div>

@@ -27,7 +27,7 @@ export default async function India({ params: { locale } }: Props) {
         <Image
           src="/images/desktop/snowmeow.jpg"
           alt={'a picture of a cheetah'}
-          className="absolute w-screen h-screen object-cover -z-10  "
+          className="absolute w-screen h-screen object-cover -z-10 "
           height={1080}
           width={1920}
           unoptimized={true}
@@ -39,11 +39,11 @@ export default async function India({ params: { locale } }: Props) {
           <h1 className="lg:text-[7vw] text-black opacity-65 text-[11vw] font-extrabold  uppercase tracking-[0.20em]">
             INDIA
           </h1>
-          <p className="text-xl lg:w-1/2 lg:pl-1 text-black opacity-65 text-center lg:text-start">
+          <p className="lg:text-xl lg:w-1/2 lg:pl-1 text-black lg:opacity-65 text-center lg:text-start">
             {t('hero-p')}
           </p>
         </div>
-        <div className="bottom-8 relative flex left-1/2">
+        <div className="bottom-4 relative flex left-[48%]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -56,7 +56,7 @@ export default async function India({ params: { locale } }: Props) {
         </div>
       </div>
       <div id="story" className="bg-black w-full h-auto">
-        <div className="flex xl:px-36 py-24 px-2 gap-5 ">
+        <div className="flex xl:px-36 py-24 px-4 gap-5 ">
           <div className="space-y-2 flex flex-col items-center text-center ">
             <span className="xl:text-6xl text-4xl font-extrabold mb-8">
               {t('story-span')}

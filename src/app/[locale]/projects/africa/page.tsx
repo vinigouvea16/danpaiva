@@ -34,16 +34,16 @@ export default async function Africa({ params: { locale } }: Props) {
         />
         <div
           id="text-hero"
-          className="relative flex flex-col lg:left-[5%] lg:top-1/2 h-full lg:h-auto lg:items-start items-center lg:justify-normal justify-evenly lg:px-0 px-2 gap-80 lg:gap-0"
+          className="relative flex flex-col lg:left-[5%] lg:top-1/2 h-full lg:h-auto lg:items-start items-center lg:justify-normal justify-around lg:px-0 px-2 gap-80 lg:gap-0"
         >
-          <h1 className="lg:text-[7vw] text-[11vw] font-extrabold  uppercase tracking-[0.20em]">
+          <h1 className="lg:text-[7vw] text-[11vw] font-extrabold uppercase tracking-[0.20em]">
             AFRICA
           </h1>
-          <p className="text-xl lg:w-1/2 lg:pl-1 text-center lg:text-start">
+          <p className="lg:text-xl lg:w-1/2 lg:pl-1 text-center backdrop-blur-sm md:backdrop-blur-none lg:text-start">
             {t('hero-p')}
           </p>
         </div>
-        <div className="bottom-8 relative flex left-1/2">
+        <div className="bottom-4 relative flex left-[47%]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -56,7 +56,7 @@ export default async function Africa({ params: { locale } }: Props) {
         </div>
       </div>
       <div id="story" className="bg-black w-full h-auto">
-        <div className="flex xl:px-36 py-24 px-2 gap-5 ">
+        <div className="flex xl:px-36 py-24 px-4 gap-5 ">
           <div className="space-y-2 flex flex-col items-center text-center ">
             <span className="xl:text-6xl text-4xl font-extrabold mb-8">
               {t('story-span')}
