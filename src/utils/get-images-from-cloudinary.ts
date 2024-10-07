@@ -30,7 +30,6 @@ export async function getImagesFromCloudinary(
     }
 
     const results = await response.json()
-    // console.log('Cloudinary Response:', results)
 
     const reducedResults: ImageProps[] = results.resources.map(
       // eslint-disable-next-line @typescript-eslint/no-explicit-any

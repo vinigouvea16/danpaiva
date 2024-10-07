@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     url: 'https://danpaiva-wildlife.vercel.app/',
     images: [
       {
-        url: '/metadataimagepaiva.png',
+        url: '/images/metadataimagepaiva.png',
         width: 800,
         height: 600,
         alt: 'Wildlife Photography',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Dann Paiva | WILDLIFE',
     description: 'Discover the incredible wildlife photography of Dann Paiva.',
-    images: ['/metadataimagepaiva.png'],
+    images: ['/images/metadataimagepaiva.png'],
   },
 }
 
