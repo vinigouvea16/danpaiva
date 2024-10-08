@@ -150,7 +150,7 @@ This site was built using the latest version of Next.js with the new App Router 
 
 ```
 
-## 🚀 Instalação e Configuração
+## 🚀 Installation and Setup
 Prerequisites
 Node.js v16.0 or higher
 Yarn or NPM as a package manager
@@ -192,7 +192,7 @@ pnpm run dev
 ```
 5. Acesse o projeto no navegador em `http://localhost:3000`.
 
-## 🌐 Internacionalização (i18n)
+## 🌐 Internationalization (i18n)
 The project uses `next-intl` to manage internationalization. The route structure is set up to allow for language-based URLs such as `/en` and `/pt-BR`, and the content is rendered based on the selected language. The language switch occurs without reloading the page, providing a smoother user experience.
 
 Adding a New Language

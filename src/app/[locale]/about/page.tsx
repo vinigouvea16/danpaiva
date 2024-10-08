@@ -88,6 +88,43 @@ export default function About({ params: { locale } }: Props) {
       </div>
 
       <div
+        id="photographicTour"
+        className="xl:px-32 pb-36 px-2  xl:gap-0 flex justify-between items-center flex-col text-center"
+      >
+        <h2 className="mb-12 text-clamp-6xl text-4xl mt-3 font-extrabold uppercase tracking-[0.25em] text-amber-500">
+          {t('tour-header1')}
+        </h2>
+        <div className="flex flex-col md:flex-row w-full gap-8">
+          <Image
+            src="/images/desktop/SNY04113.jpg"
+            width={900}
+            height={900}
+            alt={'photo of the photographer'}
+            className="object-cover w-full md:w-1/2"
+          />
+          <div className="flex flex-col justify-evenly w-full md:w-1/2 lg:space-y-12 space-y-8 text-center lg:text-left lg:pr-8">
+            <h6 className="text-xl font-thin italic">{t('tour-header2')}</h6>
+            <p className="xl:text-xl font-light xl:leading-10">{t('tour-p')}</p>
+            <p className="lg:text-xl text-lg font-light xl:leading-8 flex gap-4 justify-center items-center lg:justify-start">
+              {t('tour-p2')}{' '}
+              <a href="https://www.instagram.com/dannpaiva_/" id="Instagram">
+                <span className="sr-only">instagram link</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  fill="#ffffff"
+                  viewBox="0 0 256 256"
+                >
+                  <path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path>
+                </svg>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
         id="banner"
         className="w-full h-32 bg-[#9FBE77] text-black uppercase hidden lg:flex justify-evenly align-middle items-center text-clamp-7xl mb-20"
       >

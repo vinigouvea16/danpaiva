@@ -17,10 +17,12 @@
     "myStory-p1": "Eu sempre fui apaixonado por arte ilustrada e sou formado em Cinema pela Savannah College of Art and Design, na Geórgia. Depois de trabalhar na indústria da moda por alguns anos, decidi seguir minha verdadeira vocação: mostrar a beleza bruta da natureza. Desde então, venho documentando os animais mais incríveis ao redor do mundo. Tem sido uma honra capturar e compartilhar esses momentos extraordinários na vida selvagem.",
     "myStory-p2": "Como brasileiro, meu foco principal tem sido as onças do Pantanal. Depois de experimentar a emoção de capturar esses animais majestosos em seu habitat natural, decidi me tornar um guia certificado, especializado em safáris fotográficos e tours privados.",
     "myStory-p3": "O Pantanal brasileiro é uma das maiores áreas úmidas tropicais do mundo. É um santuário para a vida selvagem, abrigando não apenas as famosas onças-pintadas, mas também centenas de espécies de aves, ariranhas gigantes, capivaras e muitos outros animais. O ecossistema único do Pantanal, moldado pelas inundações sazonais, oferece um mosaico rico de paisagens — desde planícies abertas e florestas densas até rios sinuosos — tornando-o uma área vital para a conservação e um destino dos sonhos para qualquer fotógrafo de vida selvagem.",
-    "myStory-p4": "Como é me acompanhar em um safári? A primeira vez que fui ao Pantanal mudou minha vida, e é essa experiência que quero compartilhar com meus convidados. Meu objetivo é ensinar tudo o que sei sobre fotografia, comportamento animal e qualquer outro interesse que possamos ter em comum. Acredito que, quando fazemos algo com paixão, isso ressoa com as pessoas ao nosso redor. Você chega como um convidado, mas vai embora como um amigo.",
-    "myStory-p5": "Sinta-se à vontade para entrar em contato comigo!",
     "banner-span": "confira meu portfolio",
-    "button": "confira meu portfolio"
+    "button": "confira meu portfolio",
+    "tour-header1": "tour fotográfico",
+    "tour-header2": "Como é me acompanhar em um safári?",
+    "tour-p": "A primeira vez que fui ao Pantanal mudou minha vida, e é essa experiência que quero compartilhar com meus convidados. Meu objetivo é ensinar tudo o que sei sobre fotografia, comportamento animal e qualquer outro interesse que possamos ter em comum. Acredito que, quando fazemos algo com paixão, isso ressoa com as pessoas ao nosso redor. Você chega como um convidado, mas vai embora como um amigo.",
+    "tour-p2": "Sinta-se à vontade para entrar em contato comigo!"
   },
   "Button": {
     "about": "confira meu portfolio",
