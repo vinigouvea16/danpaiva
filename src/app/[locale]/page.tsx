@@ -26,7 +26,7 @@ export default function Index({ params: { locale } }: Props) {
           priority
         />
         <div className="absolute z-10 inset-0 flex opacity-60 flex-col top-[10%] bottom-[10%] justify-between items-center group-hover:opacity-100 group-hover:mix-blend-color-dodge group-hover:text-amber-500">
-          <div className="relative ml-4">
+          <div className="relative mx-auto text-center mt-4">
             <span className=""> {t('span')}</span>
             <h1 className="xl:text-clamp-6xl text-4xl mt-3 font-extrabold uppercase tracking-[0.25em] bg-black bg-opacity-0">
               {t('h1')}
