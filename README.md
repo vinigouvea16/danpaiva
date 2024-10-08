@@ -150,7 +150,7 @@ This site was built using the latest version of Next.js with the new App Router 
 
 ```
 
-## 🚀 Installation and Setup
+## 🚀 Install and Setup
 Prerequisites
 Node.js v16.0 or higher
 Yarn or NPM as a package manager
@@ -206,9 +206,6 @@ This project extensively utilizes the new concepts of Intercepting Routes and Pa
 - **Intercepting Routes**: Allows secondary routes, such as modals, to be rendered without leaving the main route, preserving the state and context of the original page.
 
 - **Parallel Routes**: Enables independent components to be rendered within the same page, facilitating the implementation of more complex layouts such as dashboards and galleries.
-
-## 🎨 Design e UI/UX
-O design foi elaborado com base nas preferências do cliente, priorizando um estilo sério e moderno para destacar o conteúdo visual. Foram utilizadas referências do Figma e do Dribbble para construir a identidade visual e, após diversas rodadas de feedbacks, chegamos a um resultado que equilibra funcionalidade e estética. Todos os componentes foram desenvolvidos com Tailwind CSS, o que garantiu um desenvolvimento ágil e responsivo.
 
 
 ## 🎨 Design and UI/UX
