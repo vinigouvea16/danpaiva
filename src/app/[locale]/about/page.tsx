@@ -34,13 +34,13 @@ export default function About({ params: { locale } }: Props) {
           id="text-hero"
           className="absolute flex flex-col lg:left-[10%] lg:top-1/2 top-[60%] left-0 md:text-left text-center px-4"
         >
-          <h1 className="lg:text-[3vw] text-[8vw] font-extrabold backdrop-blur-sm md:backdrop-blur-none">
+          <h1 className="lg:text-[3vw] text-[8vw] font-extrabold">
             {t('h1.part1')} <br /> {t('h1.part2')}
           </h1>
-          <p className="lg:text-3xl text-lg lg:w-2/3 backdrop-blur-sm md:backdrop-blur-none">
+          <p className="lg:text-3xl text-lg lg:w-2/3 backdrop-blur-[2px] md:backdrop-blur-none">
             {t('hero-p')}
           </p>
-          <span className="uppercase lg:text-3xl text-xl font-extrabold tracking-widest text-amber-500 pt-1 backdrop-blur-sm md:backdrop-blur-none">
+          <span className="uppercase lg:text-3xl text-xl font-extrabold tracking-widest text-amber-500 pt-1 backdrop-blur-[2px]md:backdrop-blur-none">
             {t('hero-span')}
           </span>
         </div>
