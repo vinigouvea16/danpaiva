@@ -18,9 +18,7 @@ export default function Footer() {
           </p>
         </div>
         <div className="border-2 border-white p-6 font-extrabold uppercase rounded-full flex justify-center align-middle items-center">
-          <a href="mailto:drc_paiva@hotmail.com">
-            danribeiropaiva@wildlife.com
-          </a>
+          <a href="mailto:drc_paiva@hotmail.com">dannpaiva@wildlife.com</a>
         </div>
       </footer>
       <div>
