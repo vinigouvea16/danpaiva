@@ -55,7 +55,7 @@ export default async function Pantanal({ params: { locale } }: Props) {
           </svg>
         </div>
       </div>
-      <div id="story" className="bg-black w-full h-auto">
+      <div id="story" className="bg-dark-green w-full h-auto">
         <div className="flex xl:px-36 py-24 px-4 gap-5 ">
           <div className="space-y-2 flex flex-col items-center text-center ">
             <span className="xl:text-6xl text-4xl font-extrabold mb-8">

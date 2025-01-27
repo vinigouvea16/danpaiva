@@ -33,6 +33,9 @@ const config: Config = {
         '3xl': '1920px',
         '4xl': '2560px',
       },
+      colors: {
+        'dark-green': '#050802',
+      },
     },
   },
   plugins: [],

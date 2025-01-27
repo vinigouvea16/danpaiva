@@ -75,7 +75,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className="scroll-smooth">
-      <body className={`${nunitoSans.className} bg-black text-white`}>
+      <body className={`${nunitoSans.className} bg-dark-green text-white`}>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
