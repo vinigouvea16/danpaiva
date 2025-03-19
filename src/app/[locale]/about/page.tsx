@@ -106,9 +106,22 @@ export default function About({ params: { locale } }: Props) {
           />
           <div className="flex flex-col justify-evenly w-full md:w-1/2 lg:space-y-12 space-y-8 text-center lg:text-left lg:pr-8">
             <h6 className="text-xl font-thin italic">{t('tour-header2')}</h6>
-            <p className="xl:text-xl font-light xl:leading-10">{t('tour-p')}</p>
-            <p className="lg:text-xl text-lg font-light xl:leading-8 flex lg:flex-row flex-col gap-4 justify-center items-center lg:justify-start">
-              {t('tour-p2')}{' '}
+            <p className="xl:text-xl xl:leading-10">{t('tour-p')}</p>
+            <div className="space-y-4">
+              <p className="lg:text-xl font-thin tracking-wide text-gray-400">
+                {t('tour-p2')}
+              </p>
+              <p className="lg:text-xl pb-2">{t('tour-cta')}</p>
+              <a
+                href="/doc/VIAGEM-PANTANAL-2025.pdf"
+                download="VIAGEM-PANTANAL-2025.pdf"
+                className="text-sky-300 italic tracking-wide "
+              >
+                {t('tour-a')}
+              </a>
+            </div>
+            <p className="lg:text-xl text-lg xl:leading-8 flex lg:flex-row flex-col gap-4 justify-center items-center lg:justify-start">
+              {t('tour-p3')}{' '}
               <a href="https://www.instagram.com/dannpaiva_/" id="Instagram">
                 <span className="sr-only">instagram link</span>
                 <svg
