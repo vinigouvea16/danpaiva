@@ -113,8 +113,8 @@ export default function About({ params: { locale } }: Props) {
               </p>
               <p className="lg:text-xl pb-2">{t('tour-cta')}</p>
               <a
-                href="/doc/VIAGEM-PANTANAL-2025-2.pdf"
-                download="VIAGEM-PANTANAL-2025-2.pdf"
+                href="/doc/VIAGEM-PANTANAL-OUT25.pdf"
+                download="VIAGEM-PANTANAL-OUT25.pdf"
                 className="text-sky-300 italic tracking-wide "
               >
                 {t('tour-a')}
