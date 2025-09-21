@@ -25,8 +25,8 @@ export default async function Africa({ params: { locale } }: Props) {
       <NavB />
       <div className="flex flex-col h-svh items-start justify-between overflow-x-hidden">
         <Image
-          src="/images/desktop/lion.jpg"
-          alt={'a picture of a cheetah'}
+          src="/images/desktop/lion.webp"
+          alt={'a picture of a lion'}
           className="absolute w-screen h-screen object-cover -z-10 brightness-75"
           height={1080}
           width={1920}

@@ -15,7 +15,7 @@ export default function Portfolio() {
           className="relative group flex items-center justify-center bg-gray-800 xl:row-span-2"
         >
           <Image
-            src="/images/desktop/oncas.jpg"
+            src="/images/desktop/oncas.webp"
             fill
             className="object-cover transform group-hover:brightness-75"
             alt="Project 1"

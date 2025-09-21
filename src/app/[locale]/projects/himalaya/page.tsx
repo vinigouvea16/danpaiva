@@ -26,7 +26,7 @@ export default async function Himalaya({ params: { locale } }: Props) {
       <div className="flex flex-col h-svh items-start justify-between overflow-x-hidden">
         <Image
           src="/images/flamingo.jpg"
-          alt={'a picture of a cheetah'}
+          alt={'a picture of a flamingo'}
           className="absolute w-screen h-screen object-cover -z-10 brightness-75"
           height={1080}
           width={1920}

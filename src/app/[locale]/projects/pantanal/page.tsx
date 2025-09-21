@@ -25,7 +25,7 @@ export default async function Pantanal({ params: { locale } }: Props) {
       <NavB />
       <div className="flex flex-col h-svh items-start justify-between overflow-x-hidden">
         <Image
-          src="/images/desktop/SNY07077.jpg"
+          src="/images/desktop/SNY07077.webp"
           alt={'a picture of a cheetah'}
           className="absolute w-screen h-screen object-cover -z-10  "
           height={1080}

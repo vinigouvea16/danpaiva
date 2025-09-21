@@ -24,7 +24,7 @@ export default function About({ params: { locale } }: Props) {
         className="flex flex-col h-lvh items-start justify-between"
       >
         <Image
-          src="/images/desktop/about.jpg"
+          src="/images/desktop/about.webp"
           height={1080}
           width={1920}
           alt={'a picture of a bird'}
@@ -79,7 +79,7 @@ export default function About({ params: { locale } }: Props) {
           </div>
           <div id="right-side" className="lg:p-8">
             <Image
-              src="/images/desktop/story.jpg"
+              src="/images/desktop/story.webp"
               width={500}
               height={500}
               alt={'photo of the photographer'}
@@ -98,7 +98,7 @@ export default function About({ params: { locale } }: Props) {
         </h2>
         <div className="flex flex-col md:flex-row w-full gap-8">
           <Image
-            src="/images/desktop/tour.jpg"
+            src="/images/desktop/tour.webp"
             width={900}
             height={900}
             alt={'photo of the photographer'}
